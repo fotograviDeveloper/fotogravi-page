@@ -1,0 +1,67 @@
+.encavesado{
+    background-color: #8E2DE2;
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px;
+}
+
+@media (max-width: 1400px) {
+  .encavesado{
+      transition: all .5s ease-in-out;
+    height: 40px;  
+    font-size: 20px;
+    width: 350px;
+    
+
+  } 
+
+}
+
+
+@media (max-width: 1150px) {
+  .encavesado{
+      transition: all .5s ease-in-out;
+    height: 150px;  
+  border-radius: 7px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+
+  } 
+
+}
+
+@media (max-width: 750px) {
+   .encavesado{
+     text-align: center;
+       transition: all .5s ease-in-out;
+     height: 40px;  
+     font-size: 20px;
+     width: 250px;
+
+   } 
+
+}
+
+@media (max-width: 450px) {
+  .encavesado{
+      transition: all .5s ease-in-out;
+    height: 35px;  
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+
+  } 
+
+}

@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
+.bienvenida {
+   background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../../assets/image/fondo-inicio.jpg") ;
+ 
+background-repeat: no-repeat;
+padding-top: 100px;
+background-size: cover;
+background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 70vh 30vh;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen {
+  justify-content: center;
+}
+.imagen img {
+    margin: 50px;
+    padding: 15px;
+  height: auto;
+  width: 550px;
+}
+.informacion{
+  background-color: #a244ff41
+;
+height: 400px;
+transition: all 1s;
+width: 900px;
+padding-top: 50px;
+border-radius:16px ;
+}
+
+
+.informacion p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+font-weight: 800;
+
+font-style: italic;
+  color:aliceblue;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 20px;
+  max-width: 70%;
+  text-align: center;
+}
+
+.informacion h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+   text-align: left;
+
+}
+
+.boton{
+
+    height: 250px;
+grid-column-end: span 2;
+}
+.boton span a i{
+   color: aliceblue;
+   transition: all .6s ease-out;
+font-size: 80px;
+
+}
+.boton span a i:hover{
+  color: #E100FF;
+  font-size: 100px;
+  transition: all .3s ease;
+}
+
+
+/* media query del texto a 1920px*/
+@media (max-width :1000px) {
+  .informacion{
+    height: 550px;
+  }
+  .informacion h1{
+    letter-spacing: 4px;
+  }
+}
+@media (max-width :900px){
+  .informacion{
+    transition: all 1s;
+    width: 650px;
+    padding-top: 50px;
+  }
+  .informacion h1{
+    font-size: 20px;
+    font-weight: 600;
+ 
+    transition: all 1s;
+  }
+  .informacion p{
+    font-size: 30px;
+  }
+
+  .boton span a i{
+  
+  
+ font-size: 40px;
+ 
+ }
+
+} 
+
+@media (max-width :600px){
+  .informacion{
+    transition: all 1s;
+    width: 400px;
+    height: auto;
+    padding-top: 0px;
+    padding: 10px;
+  }
+  .informacion h1{
+    font-size: 18px;
+font-weight: 300;
+text-align: center;
+  }
+  .informacion p{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .boton span a i{
+    color: aliceblue;
+  
+ font-size: 35px;
+ 
+ }
+
+} 
+
+@media (max-width :400px){
+  .informacion{
+
+    width: 280px;
+    height: 500px;
+    margin-top: 50px;
+  
+  }
+  .informacion h1{
+    font-size: 18px;
+    
+    transition: all 1s;
+  }
+  .informacion p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .boton span a i{
+visibility: hidden;
+ 
+ }
+
+} 

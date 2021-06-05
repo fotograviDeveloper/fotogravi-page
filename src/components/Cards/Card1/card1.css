@@ -1,0 +1,95 @@
+
+
+.cards{ 
+  margin: 15px;
+  height: auto;
+  float: left;
+
+    
+
+}
+
+.cards .cardy{     
+
+    width: 150px;
+    height: 150px;
+   
+    border-radius:6px ;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+    text-align: center;
+transition: all .3s ease-out;
+}
+
+.cards .cardy:hover{
+    cursor: pointer;
+
+box-shadow: 0 20px 8px rgba(0, 0, 0, 0.109);
+
+}
+
+.cards .cardy img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+    transition: all .3s ease-out;
+}
+
+
+.cards .cardy img{
+    width: 150px;
+    height:100px;
+    transition: all .3s ease-out;
+    object-fit: cover;
+
+}
+.cards .cardy .links{
+     text-decoration: none;
+}
+.cards .cardy .links h2{
+    color: aliceblue;
+   background-color: rgb(27, 27, 27);
+ 
+
+   height: 80px;
+    padding: 10px;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 20px;  
+    
+    transition: all .5s ease-in-out;
+    transform: translateY(0px);
+}
+@media (max-width: 1150px){
+    
+.cards .cardy img{
+    width: 110px;
+    height:85px;
+    transition: all .3s ease-out;
+    object-fit: cover;
+
+}
+.cards .cardy{     
+
+    width: 110px;
+    height: 125px;
+transition: all .3s ease-out;
+}
+}
+@media (max-width: 560px){
+    
+    .cards .cardy img{
+        width: 300px;
+        height:150px;
+        transition: all .3s ease-out;
+        object-fit: cover;
+    
+    }
+    .cards .cardy{     
+    
+        width: 300px;
+        height: 150px;
+    transition: all .3s ease-out;
+    }
+    }

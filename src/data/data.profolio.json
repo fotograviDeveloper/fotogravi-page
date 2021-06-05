@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "link": "/art/mattepainting",
+    "img": "../assets/image/DSC_0069.png",
+    "titulo": "Mate painting",
+    "description": "Esta es una imagen de prueba"
+  },
+  {
+    "id": 2,
+    "link": "/art/ilustration",
+    "img": "../assets/image/DSC_0069.png",
+    "titulo": "ilustracion",
+    "description": "Esta es una imagen de prueba2"
+  },
+  {
+    "id": 3,
+    "link": "/Design/web-design",
+    "img": "../assets/image/DSC_0069.png",
+    "titulo": "Diseño Web",
+    "description": "Esta es una imagen de prueba3"
+  }
+]

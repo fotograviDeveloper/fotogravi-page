@@ -1,0 +1,254 @@
+
+.cardsD {
+  margin: 25px;
+  height: auto;
+
+}
+
+.cardDesign {
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #8d2de2bc;
+  box-shadow: 0 8px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.6s ease-out;
+}
+
+.cardDesign:hover {
+  height: 450px;
+  transition: all 0.6s ease-out;
+}
+
+.cardDesign .links img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.6s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.6s ease-out;
+}
+.cardDesign .links {
+  text-decoration: none;
+}
+
+.cardDesign .links h2 {
+  color: aliceblue;
+  padding-top: 20px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cardDesign .links p {
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: montserrat;
+  padding: 20px;
+}
+
+/*Media query de el tamaño de targetas */
+@media (max-width: 1800px) {
+   
+
+    .cardDesign {
+  width: 290px;
+  height: 210px;
+ 
+ 
+}
+.cardDesign .links img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+  }
+  .cardDesign:hover > .links img {
+    height: 180px;
+    width: 100%;
+   
+  }
+  .cardDesign .links p {
+    font-size: 20px;
+ 
+ }
+}
+
+@media (max-width: 1400px) {
+   
+
+    .cardDesign {
+  width: 240px;
+  height: 240px;
+
+
+}
+.cardDesign:hover {
+    height: 350px;
+    transition: all 0.6s ease-out;
+  }
+.cardDesign .links img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+  }
+  .cardDesign:hover > .links img {
+    height: 150px;
+    width: 100%;
+   
+  }
+  .cardDesign .links h2 {
+  
+    padding-top: 10px;
+ 
+   
+    font-size: 30px;
+   
+  }
+  .cardDesign .links p {
+    font-size: 18px;
+margin-top: 2px; 
+ }
+}
+@media (max-width: 1150px) {
+   
+
+  .cardDesign {
+width: 210px;
+height: 200px;
+
+}
+.cardDesign .links img {
+  height: 210px;
+  width: 100%;
+  transition: all 0.6s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 120px;
+  width: 100%;
+ 
+}
+
+}
+@media (max-width: 980px) {
+   
+
+  .cardDesign {
+width: 200px;
+height: 200px;
+
+}
+.cardDesign:hover {
+  height: 175px;
+  transition: all 0.4s ease-out;
+}
+.cardDesign .links img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 120px;
+  width: 100%;
+ 
+}
+
+}
+
+@media (max-width: 750px) {
+   
+
+    .cardDesign {
+  width: 150px;
+  height: 150px;
+ 
+}
+.cardDesign .links img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-out;
+  }
+  .cardDesign:hover > .links img {
+    height: 120px;
+    width: 100%;
+   
+  }
+ 
+}
+
+@media (max-width: 560px) {
+   
+
+  .cardDesign {
+width: 400px;
+height: 200px;
+
+}
+.cardDesign .links img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.6s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 200px;
+  width: 100%;
+ 
+}
+
+}
+@media (max-width: 450px) {
+   
+
+  .cardDesign {
+width: 300px;
+height: 150px;
+
+}
+.cardDesign .links img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.6s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 100px;
+  width: 100%;
+ 
+}
+
+}
+
+@media (max-width: 360px) {
+   
+
+  .cardDesign {
+    background-color: black;
+width: 300px;
+height: 150px;
+
+}
+.cardDesign .links img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.6s ease-out;
+}
+.cardDesign:hover > .links img {
+  height: 200px;
+  width: 100%;
+ 
+}
+
+}

@@ -1,0 +1,355 @@
+/*impoorto la tipografia del titulo "bebas neue" */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.portafolio {
+  height: 130vh;
+  display: grid;
+  margin-top: 0px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/*grid uno parte superior de la seccion*/
+.grid1 {
+  height: auto;
+  
+  padding-top: 100px;
+margin-top: 0px;
+width: 100%;
+  border-radius: 0px 0px 40px 40px;
+  background-color: rgb(0, 0, 0);
+}
+.grid1 h2 {
+  background-color: #8e2de2;
+  padding: 10px;
+  height: 90px;
+
+  padding-left: 90px;
+  margin: 0spx;
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: "Bebas Neue", cursive;
+}
+.grid1 .info {
+  border-radius: 0px 0px 20px 20px;
+  padding: 25px;
+
+  padding-left: 100px;
+  padding-right: 150px;
+  font-family: montserrat;
+  font-size: 25px;
+
+  font-weight: 600;
+}
+.part1 h2 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+/*grid2 parte media de la seccion aqui se encuentra el portafolioDesign*/
+
+.grid2 {
+  display: grid;
+  padding: 50px;
+  grid-template-rows: 1fr 150px;
+
+  grid-template-columns: 1fr 1fr;
+}
+.grid2 .cardsPorfolio {
+border-radius: 20px;
+
+}
+
+.derecha {
+  display: grid;
+  padding-top: 35px;
+  grid-template-rows: 100px 210px 400px;
+  grid-gap: 15px;
+  border-radius: 16px 16px 5px 5px;
+  background-color: #e2cef5c2;
+  padding-left: 50px;
+  align-items: center;
+}
+.derecha .texto h3 {
+  color: rgb(65, 65, 65);
+  font-size: 70px;
+  margin-left: 50px;
+  font-family: "Bebas Neue", cursive;
+}
+.derecha .parrafoBranding p {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 400px;
+  color: rgb(77, 77, 77);
+}
+.skills {
+  background-color: #8e2de2;
+  grid-column-end: span 2;
+  text-align: center;
+  box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.52);
+  border-radius: 5px 10px 40px 40px;
+  align-items: center;
+}
+.skills h3 {
+  display: inline-block;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.skills i {
+  font-size: 40px;
+  margin: 20px;
+}
+.skills i:hover {
+  color: rgb(170, 170, 170);
+}
+
+@media (max-width: 1400px){
+  .grid2{
+    grid-template-columns: 500px 1fr;
+   
+  }
+  .derecha{
+   
+    height: 100vh;
+    
+  }
+  .derecha .texto h3 {
+    color: rgb(65, 65, 65);
+    font-size: 60px;
+    margin-left: 40px;
+
+  }
+  .derecha .parrafoBranding{
+    height: 300px;
+    width: 400px;
+  
+  }
+  .derecha .parrafoBranding p {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+    height: 300px;
+    color: rgb(77, 77, 77);
+  }
+  .portafolios{
+
+    width: 400px;
+padding-top: 50px;
+margin-top: 150px;
+  }
+  .cardsPorfolio{
+margin-top: 10px;
+
+  }
+}
+
+
+@media (max-width: 1150px){
+  .grid2{
+    grid-template-columns: 400px 1fr;
+   
+  }
+  .grid1 h2{
+    padding-top: 20px;
+    font-size: 50px;
+  }
+  .grid1 .info{
+    font-size: 20px;
+  }
+  .derecha{
+   margin-left: 0px;
+   padding-left: 20px;
+    height: 110vh;
+    
+  }
+  .derecha .texto h3 {
+    
+    font-size: 50px;
+    margin-left: 25px;
+
+  }
+  .derecha .parrafoBranding{
+    height: 300px;
+    width: 400px;
+  
+  }
+  .derecha .parrafoBranding p {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 250px;
+    font-weight: 600;
+    height: 300px;
+    color: rgb(77, 77, 77);
+  }
+  .portafolios{
+display: flex;
+align-items: center;
+    width: 350px;
+    transition: all .5s ease-in-out;
+padding-top: 50px;
+margin-top: 150px;
+  }
+  .cardsPorfolio{
+    transition: all .5s ease-in-out;
+margin-top: 10px;
+
+  }
+
+  
+
+.skills h3 {
+
+  padding: 10px;
+  font-size: 30px;
+ 
+  margin-left: 10px;
+}
+.skills i {
+  font-size: 30px;
+
+}
+
+}
+
+@media (max-width: 750px){
+  .grid2{
+    grid-template-columns: 300px 1fr;
+   
+  }
+ 
+  .portafolios{
+display: inline;
+transition: all .5s ease-in-out;
+    width: 350px;
+padding-top: 50px;
+margin-top: 150px;
+  }
+  .cardsPorfolio{
+    transition: all .5s ease-in-out;
+margin-top: 10px;
+
+  }
+}
+
+@media (max-width: 560px){
+  .grid2{
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr) 150px;
+    grid-template-areas: "cards"
+                          "info"
+                          "skills"
+                          ;
+   
+  }
+  .portafolios{
+    
+    width: 450px;
+
+    height: 500px;
+  }
+ .derecha{
+padding-left: 60px;
+width: 100%;
+height: 120vh;
+padding-bottom: 25px;
+grid-area: info;
+ }
+  .portafolios{
+display: inline;
+transition: all .5s ease-in-out;
+    width: 350px;
+padding-top: 50px;
+margin-top: 150px;
+  }
+  .cardsPorfolio{
+    grid-area: cards;
+    transition: all .5s ease-in-out;
+margin-top: 10px;
+
+  }
+  .skills{
+    grid-area: skills;
+  }
+  .skills h3 {
+
+    padding: 10px;
+    font-size: 25px;
+   
+    margin-left: 5px;
+  }
+  .skills i {
+    font-size: 25px;
+  
+  }
+}
+
+@media (max-width: 450px){
+  .grid2{
+    grid-template-rows: 1fr 1.1fr 170px;
+  }
+  .portafolios{
+    
+    width: 450px;
+
+    height: 500px;
+  }
+ .derecha{
+padding-left: 60px;
+width: 100%;
+height: 120vh;
+padding-bottom: 25px;
+grid-area: info;
+ }
+  .portafolios{
+display: inline;
+transition: all .5s ease-in-out;
+    width: 350px;
+padding-top: 50px;
+margin-top: 150px;
+  }
+  .cardsPorfolio{
+    grid-area: cards;
+    height: auto;
+    
+
+    transition: all .5s ease-in-out;
+
+
+
+
+  }
+  .skills{
+    grid-area: skills;
+  
+  }
+}
+@media (max-height:1000px){
+  .cardsPorfolio{
+    height: 110vh;
+   
+  }
+}
+@media (max-height:1000px){
+  .derecha{
+    height: 110vh;
+   
+  }
+}
+@media (max-height:750px){
+  .cardsPorfolio{
+    height: 180vh;
+   
+  }
+}
+@media (max-height:750px){
+  .derecha{
+    height: 180vh;
+   
+  }
+}

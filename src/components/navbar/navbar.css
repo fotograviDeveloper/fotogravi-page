@@ -1,0 +1,63 @@
+.barra{
+
+position: fixed;
+width: 100%;
+z-index: 1;
+margin-bottom: 60px;
+}
+
+.barra .navbar .navbar-brand img{
+    width: 150px;
+    height: auto;
+    margin: 0px 20px 0px 40px;
+    padding: 10px;
+
+}
+.barra .navbar a{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5px;
+    transition: all .5s ease-out;
+    font-family: montserrat;
+}
+.barra .navbar .navbar-brand:hover{
+    color: blueviolet;
+    font-size: 35px;
+    transition: all .5s ease-out;
+}
+.navbar-toggler{
+    background-color: rgba(59, 116, 187, 0.193);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 60px; 
+    border-radius: 60px;
+  margin-right: 45px;
+    font-size: 16px;
+}
+
+.socialMedia{
+    margin-left: 200px;
+color: rgb(162, 162, 162);
+    }
+  @media (max-width:340px){
+        .barra .navbar .navbar-brand img{
+          visibility: hidden;
+            display: none;
+        }
+    }
+    @media (min-width:190px){
+        .barra .navbar .navbar-brand img{
+            width: 200px;
+            transition: all 1s;
+        }
+    }
+
+  
+    @media (max-width:290px){
+        .barra .navbar .navbar-brand img{
+           z-index: 1;
+                   position: absolute;
+            transition: all 1s;
+        }
+    }

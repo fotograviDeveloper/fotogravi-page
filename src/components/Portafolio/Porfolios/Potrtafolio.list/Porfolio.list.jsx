@@ -1,0 +1,27 @@
+//este componente recorre la lista de elementos y crea la una Card por cada uno de ellos.
+import React from 'react'
+import Card1 from "../../../Cards/Card1/Card1"
+
+function PortafolioList(props){
+    return(
+        <div className="Crards" >    
+        {props.Portafolios.map((Portafolios) => {
+         
+        return(
+            <Card1
+            titulo={Portafolios.titulo}
+            img={Portafolios.img}
+            textoAlterno={Portafolios.textoAlterno}
+            description={Portafolios.description}
+            link= {Portafolios.link}
+
+            
+     />
+            
+          
+        )
+        })}
+         </div>
+    )
+}
+export default PortafolioList; 
