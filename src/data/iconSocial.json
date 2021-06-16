@@ -1,0 +1,28 @@
+[
+    {
+        "id" : "1",
+        "Icon": "fab fa-facebook-square",
+        "link": "facebook.com",
+        "alt": "link a facebook"
+    },
+
+    {
+        "id" : "2",
+        "Icon": "fab fa-facebook-square",
+        "link": "facebook.com",
+        "alt": "link a facebook"
+    },
+    {
+        "id" : "3",
+        "Icon": "fab fa-facebook-square",
+        "link": "facebook.com",
+        "alt": "link a facebook"
+    },
+    {
+        "id" : "4",
+        "Icon": "fab fa-facebook-square",
+        "link": "facebook.com",
+        "alt": "link a facebook"
+    }
+    
+]

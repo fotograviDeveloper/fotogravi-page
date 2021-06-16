@@ -1,0 +1,16 @@
+
+.icon i{
+    font-size:50px;
+    color: rgb(165, 165, 165);
+padding: 10px;
+margin: 10px;
+
+cursor: pointer;
+
+}
+.icon i:hover{
+   
+    color: #5B1DA8;
+
+
+}

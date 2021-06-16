@@ -1,28 +1,28 @@
 .center{
     display: flex;
-    justify-content: center;
+
+    align-items: stretch;
+  justify-content: center;
   
 }
 .CrardTrabajo{
-   
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  
+
+display: inline-flex;
+     height: 100%;
+  margin-top: 25px; 
   text-align: center;
 }
 
 @media (max-width: 1400px) {
 
     .CrardTrabajo{
-      
-        display: grid;
-        height: 50vh;
+ 
+       
+        height: max-content;
     }
 .center{
   width: 100%;
-    height: 100vh;
+    height: max-content;
 }
 }
 @media (max-width: 980px) {
@@ -44,7 +44,8 @@
 } 
 @media (max-height:800px){
   .CrardTrabajo{
-    height: 150vh;
+    height: max-content;
+    margin-top: 60px;
   
   }
 }

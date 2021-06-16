@@ -1,5 +1,5 @@
 .encavesado{
-    background-color: #8E2DE2;
+    background-color: #9242F5;
     display: inline-block;
     width: 500px;
     height: 50px;
@@ -29,12 +29,10 @@
 @media (max-width: 1150px) {
   .encavesado{
       transition: all .5s ease-in-out;
-    height: 150px;  
+    height: auto;  
   border-radius: 7px;
     width: auto;
-    text-align: center;
-    display: flex;
-    align-items: center;
+  
     padding: 10px;
     
 
@@ -46,9 +44,9 @@
    .encavesado{
      text-align: center;
        transition: all .5s ease-in-out;
-     height: 40px;  
+ 
      font-size: 20px;
-     width: 250px;
+     width: max-content;
 
    } 
 
@@ -57,10 +55,10 @@
 @media (max-width: 450px) {
   .encavesado{
       transition: all .5s ease-in-out;
-    height: 35px;  
+ 
     text-align: center;
     font-size: 18px;
-    width: 300px;
+  
 
   } 
 

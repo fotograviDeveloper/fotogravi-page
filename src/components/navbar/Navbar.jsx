@@ -6,9 +6,9 @@ class Navbar extends Component {
     return (
       <React.Fragment>
         <div className="barra">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">
-              <img src={img1} alt="logotipo de mi marca"></img>
+          <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand ml-auto" href="/">
+              <img className="img"src={img1} alt="logotipo de mi marca"></img>
             </a>
             <button
               className="navbar-toggler"
@@ -21,9 +21,12 @@ class Navbar extends Component {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavAltMarkup"
+            >
               <div className="navbar-nav  text-center">
-                <a className="nav-item nav-link active" href="#inicio">
+                <a className="nav-item nav-link " href="#inicio">
                   Inicio <span class="sr-only"></span>
                 </a>
                 <a className="nav-item nav-link" href="#abautme">
@@ -32,28 +35,36 @@ class Navbar extends Component {
                 <a className="nav-item nav-link" href="#Portafolio">
                   Portafolio
                 </a>
-                <a className="nav-item nav-link" href="#Servicios">
+                {/* <a className="nav-item nav-link" href="#Servicios">
                   Servicios
-                </a>
+                </a>*/}
                 <a className="nav-item nav-link" href="#Contactame">
                   Contactame
                 </a>
-             {/*  <a className="nav-item nav-link" href="/MyBlog">
+                {/*  <a className="nav-item nav-link" href="/MyBlog">
                   <Blog></Blog>
-                </a>*/} 
+                </a>*/}
               </div>
-              <div className="d-flex justify-content-end text-center socialMedia ">
+              <div className="d-flex justify-content-end socialMedia ">
                 {" "}
-                <a class="navbar-brand" href="https://www.facebook.com/Garces.fotogravi" target="_bank">
+                <a
+                  class="navbar-brand"
+                  href="https://www.facebook.com/Garces.fotogravi"
+                  target="_bank"
+                >
                   <i class="fab fa-facebook-square"></i>
                 </a>
-                <a class="navbar-brand" href="https://www.linkedin.com/in/fotogravi-studio/" target="_bank">
+                <a
+                  class="navbar-brand"
+                  href="https://www.linkedin.com/in/fotogravi-studio/"
+                  target="_bank"
+                >
                   <i class="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>
           </nav>
-        </div>
+        </div>''
       </React.Fragment>
     );
   }

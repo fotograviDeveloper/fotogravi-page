@@ -14,8 +14,8 @@ class Welcome extends Component {
             "El diseño ayuda a trasmitir una idea, una emoción, un mensaje o un pensamiento.<br/>
 De forma visual y universal"</p>
 
-<h1>Raúl Garcés</h1></div>
- 
+</div>
+ <h1>Raúl Garcés</h1>
    
           </div>
           <div className="boton">

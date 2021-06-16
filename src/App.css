@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
 .App {
   text-align: left;
@@ -8,16 +9,18 @@ html{
 }
 body{
   color :aliceblue;
- background-color: rgb(234, 234, 234);
+ background-color: #F2D9FC;
 }
-body::-webkit-scrollbar{
-  background-color: #2d2043;
+body::-webkit-progress-bar{
+  background-color: #5B1DA8;
   width: 9px;
 }
+
 body::-webkit-scrollbar-thumb{
   background-color: aliceblue;
   border-radius: 30px;
 }
+
 .suspense h1 {
   color: #2d2043;
 }

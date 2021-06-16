@@ -1,34 +1,49 @@
 .barra{
 
+
 position: fixed;
 width: 100%;
 z-index: 1;
+
 margin-bottom: 60px;
 }
+nav {
+    background-color: #494949;
+height: 75px;
+-webkit-box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+-moz-box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+    border-radius: 0px 0px 16px 16px;
 
-.barra .navbar .navbar-brand img{
-    width: 150px;
+}
+.barra .navbar .navbar-collapse{
+
+    border-radius: 0px 0px 16px 16xp;
+}
+.barra .navbar .navbar-brand .img{
+    width: 110px;
     height: auto;
     margin: 0px 20px 0px 40px;
     padding: 10px;
 
 }
 .barra .navbar a{
-    color: aliceblue;
+    color: rgb(248, 248, 248);
     font-size: 25px;
-    font-weight: 500;
+  
     margin-left: 5px;
     transition: all .5s ease-out;
-    font-family: montserrat;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3.5px;
 }
 .barra .navbar .navbar-brand:hover{
-    color: blueviolet;
+    color: rgb(49, 49, 49);
     font-size: 35px;
-    transition: all .5s ease-out;
+    transition: all .5s ease-in-out;
 }
 .navbar-toggler{
-    background-color: rgba(59, 116, 187, 0.193);
-    color: rgb(0, 0, 0);
+    background-color: #eae8ec;
+    transition: all .5s ease-in-out;
     height: 40px;
     width: 60px; 
     border-radius: 60px;
@@ -36,10 +51,10 @@ margin-bottom: 60px;
     font-size: 16px;
 }
 
-.socialMedia{
-    margin-left: 200px;
-color: rgb(162, 162, 162);
-    }
+
+
+
+/*media query*/
   @media (max-width:340px){
         .barra .navbar .navbar-brand img{
           visibility: hidden;
