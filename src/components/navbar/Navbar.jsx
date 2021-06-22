@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import img1 from "../../assets/svg/logo2.png";
+import {Link} from "react-router-dom"
 import "./navbar.css";
 class Navbar extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="barra">
-          <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand ml-auto" href="/">
+       <nav class="navbar navbar-expand-lg ">
+          
+            <Link class="navbar-brand ml-auto" to="/">
               <img className="img"src={img1} alt="logotipo de mi marca"></img>
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,21 +28,21 @@ class Navbar extends Component {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav  text-center">
-                <a className="nav-item nav-link " href="#inicio">
+                <Link className="nav-item nav-link " to="/">
                   Inicio <span class="sr-only"></span>
-                </a>
-                <a className="nav-item nav-link" href="#abautme">
+                </Link>
+                <Link className="nav-item nav-link" to="/Conoceme">
                   Conoceme
-                </a>
-                <a className="nav-item nav-link" href="#Portafolio">
+                </Link>
+                <Link className="nav-item nav-link" to="/Portafolio">
                   Portafolio
-                </a>
+                </Link>
                 {/* <a className="nav-item nav-link" href="#Servicios">
                   Servicios
                 </a>*/}
-                <a className="nav-item nav-link" href="#Contactame">
+                <Link className="nav-item nav-link" to="/Contacto">
                   Contactame
-                </a>
+                </Link>
                 {/*  <a className="nav-item nav-link" href="/MyBlog">
                   <Blog></Blog>
                 </a>*/}

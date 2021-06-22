@@ -12,6 +12,7 @@ function PortafolioListDesign(props){
         return(
             
             <CardV2 
+            key={Trabajos.id}
             titulo={Trabajos.titulo}
             img={Trabajos.img}
             textoAlterno={Trabajos.textoAlterno}

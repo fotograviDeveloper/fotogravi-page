@@ -11,6 +11,7 @@ function PortafolioList(props){
         return(
             
             <Card1
+            key={Portafolios.id}
             titulo={Portafolios.titulo}
             img={Portafolios.img}
             textoAlterno={Portafolios.textoAlterno}

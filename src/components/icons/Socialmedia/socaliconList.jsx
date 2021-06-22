@@ -42,7 +42,7 @@ class IconSocialList extends React.Component {
             {
               id : "5",
               Icon: "fas fa-mail-bulk",
-              link: "./formulario-contacto",
+              link: "./Contacto",
               alt: "Enviar correo"
           }
           
@@ -52,7 +52,7 @@ class IconSocialList extends React.Component {
   render() {
     return (
       <React.Fragment>
-      <div className="iconBlock">
+      <div className="iconBlock" key={this.state.data.id}>
         <IconSocial icons={this.state.data} /></div>
       
       </React.Fragment>

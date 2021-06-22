@@ -1,4 +1,4 @@
-// este componente pinta toda una seccion perteneciente al apartado de mi portafolio
+// este componente pinta toda una seccion perteneciente al apartado de mi portfolio
 
 import React, { Component } from "react";
 import Portafolios from "../Portafolio/Porfolios/OtrosPorfolios";
@@ -19,11 +19,11 @@ class PortafolioSection extends Component {
                   Estas son algunas de las marcas con las que he trabajado o que
                   yo mismo he creado. <br />
                   Aqui abajo encontraras mas contenido creado por mi.{" "}
-                  <i class="fas fa-arrow-down"></i>
+                  <i className="fas fa-arrow-down"></i>
                 </p>
             </div>
-           <PortafolioDesign></PortafolioDesign> 
-          
+  
+          <PortafolioDesign></PortafolioDesign>
           </div>
           <div className="grid2">
          
@@ -40,7 +40,7 @@ class PortafolioSection extends Component {
               </p></div>
               </div>
                 <div className="portafolios">
-                <Portafolios></Portafolios>
+       <Portafolios></Portafolios>
               </div>
               <div className="skills">
               <Myskills></Myskills>

@@ -1,0 +1,16 @@
+/*codigo para realizar una peticion a al api con link dinamico. Solo 
+Remplazar el link del fetch y el nombre de la variable*/
+const{link} = useParams()
+
+const [datos, setDatos] = React.useState([])
+React.useEffect(() =>{
+ const fetchPortafolios = async () => {
+    let res = await fetch(`http://localhost:3001/api/Design/${link}`);
+    let datos = await res.json();
+   setDatos(datos) 
+   console.log(datos)
+  
+  };
+fetchPortafolios()
+},[link])
+console.log(link)

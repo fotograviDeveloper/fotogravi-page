@@ -1,4 +1,4 @@
-//este componente contiene la data que se exportara para ser utulizada en el componente Portafolio.list.jsx que se encarga de pintar
+//este componente contiene la data que se exportara para ser utilized en el componente Portafolio.list.jsx que se encarga de pintar
 //las targetas correspondientes
 
 import React from "react";

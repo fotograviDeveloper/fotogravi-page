@@ -6,7 +6,7 @@ class CardV2 extends React.Component {
   render() {
     return (
       
-      <div className=" cardsD  ">
+      <div className=" cardsD  " key={this.props.id}>
         <div className="cardDesign">
           <Link className="links" to={this.props.link}>
             <img src={this.props.img} alt={this.props.textoAlterno} />

@@ -12,8 +12,10 @@ function IconSocial(props){
         
         return(
      <ComponentIcon
+     key={icons.id}
      icon= {icons.Icon}
-        link= {icons.link}></ComponentIcon>
+        link= {icons.link}
+        alt={icons.alt}></ComponentIcon>
         )
         })}</div>  
          </div>

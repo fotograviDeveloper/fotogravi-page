@@ -3,7 +3,7 @@
 
   display: flex;
   padding: 7px;
- justify-content: end;
+ justify-content: flex-end;
 }
 
 .ico a{
@@ -24,10 +24,10 @@ color: #FFD81B;
 padding: 50px;
 
   background-color: #000000;
-  box-shadow: 0px 5px 5px #494949 ;
+
   font-family: "Montserrat", sans-serif;
 }
-/*contenedor general de informacion divicion GRID*/
+/*contenedor general de infraction divicion GRID*/
 .grid {
   transition: all .5s ease-out;
   display: grid;

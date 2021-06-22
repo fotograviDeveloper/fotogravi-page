@@ -1,0 +1,39 @@
+.portada {
+    height: 50vh;
+    width: 100%;
+    transition: all .3s ease-out;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: grid;
+grid-template-columns: .5fr 1fr .5fr;
+  
+}
+.portada .ico{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.portada .titulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: bebas neue;
+    letter-spacing: 5px;
+}
+.portada .titulo h3{
+    background-color: #9342f555;
+    border-radius: 16px;
+    width: 80%;
+    font-size: 60px;
+    height: 20%;
+    text-align: center;
+
+}
+.portada .ico i{
+    font-size: 80px;
+}

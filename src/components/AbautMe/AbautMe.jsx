@@ -2,15 +2,11 @@ import React, { Component } from "react";
 
 import pdf from "../../assets/pdf/curriculum vitae.pdf";
 import FotoDeMi from "../../assets/image/Raul_Garces1.png";
-import WOW from "wowjs";
+
 
 import "./abautme.css";
 class AbautMe extends Component {
-  componentDidMount() {
-    new WOW.WOW({
-      live: false,
-    }).init();
-  }
+
   render() {
     return (
       <React.Fragment>
@@ -41,12 +37,12 @@ class AbautMe extends Component {
             </div>
             <div className="img">
               {" "}
-              <img src={FotoDeMi} alt="mi foto de perfil" srcset="" />
+              <img src={FotoDeMi} alt="mi foto de perfil" />
             </div>
 
             <div className="parrafo">
               <p className="pr1">
-                Desde hace mas de 4 años me interese por el diseño grafico. Esto
+                Dest hace mas de 4 años me interese por el diseño grafico. Esto
                 me llevo a aprender y desarrollar múltiples habilidades que me
                 han ayudado a llegar hasta este punto.{" "}
               </p>

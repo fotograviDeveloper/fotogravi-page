@@ -22,7 +22,7 @@ De forma visual y universal"</p>
             <span>
               {" "}
               <a href="#abautme">
-                <i class="fas fa-sort-down"></i>
+                <i className="fas fa-sort-down"></i>
               </a>
             </span>
           </div>

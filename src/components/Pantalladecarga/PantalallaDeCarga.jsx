@@ -5,7 +5,7 @@ class CargandoPagina  extends React.Component {
         return(
             <React.Fragment>
                 <div className="carga">
-                <div class="lds-circle"><div></div></div>
+                <div className="lds-circle"><div></div></div>
                 <h3>Cargando Pagina ...</h3>
                </div>
             </React.Fragment>
