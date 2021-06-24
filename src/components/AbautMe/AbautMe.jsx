@@ -1,15 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
 import pdf from "../../assets/pdf/curriculum vitae.pdf";
 import FotoDeMi from "../../assets/image/Raul_Garces1.png";
 
 
 import "./abautme.css";
-class AbautMe extends Component {
+import { Route, BrowserRouter } from "react-router-dom";
 
-  render() {
+import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
+
+function AbautMe() {
+
+  
     return (
       <React.Fragment>
+ <BrowserRouter>
+
         <div className="abaut" id="abautme">
           <div className="botonDescargaCV">
             {" "}
@@ -66,10 +72,13 @@ class AbautMe extends Component {
                 brindarte una solución acorde a tus necesidades.
               </p>
             </div>
+            <Route exact path="/" component={VerMasDeMi}/>
           </div>
+     
         </div>
+       </BrowserRouter>
       </React.Fragment>
     );
-  }
+ 
 }
 export default AbautMe;

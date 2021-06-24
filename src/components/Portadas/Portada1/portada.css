@@ -1,5 +1,5 @@
 .portada {
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     transition: all .3s ease-out;
 background-position: center;
@@ -21,14 +21,15 @@ grid-template-columns: .5fr 1fr .5fr;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
     font-family: bebas neue;
     letter-spacing: 5px;
 }
 .portada .titulo h3{
     background-color: #9342f555;
     border-radius: 16px;
-    width: 80%;
+    width: 100%;
+    text-align: center;
     font-size: 60px;
     height: 20%;
     text-align: center;

@@ -8,7 +8,7 @@ class BackButton extends React.Component{
         return(
             <React.Fragment>
                 
-                  <Link to="../"> <i class="fas fa-hand-point-left"></i></Link>
+                  <Link to="/"> <i class="fas fa-hand-point-left"></i></Link>
             </React.Fragment>
         )
     }

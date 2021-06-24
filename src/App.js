@@ -25,6 +25,7 @@ function App() {
         > 
           {" "}
           <Route exact path="/" component={NavbarHome} />
+        
           <Route exact path="/" component={HomePage} />{" "}
         </Suspense>
         <Route path="/" component={Navbar} />

@@ -9,10 +9,6 @@ router.get('/',function(req,res){
     //__dirname : It will resolve to your project folder.
       });
 
-router.get('/asdas', (req, res) =>{
 
-    res.sendFile(path.join(__dirname+'../public/index.html'));
-    
-})
 
 module.exports = router;

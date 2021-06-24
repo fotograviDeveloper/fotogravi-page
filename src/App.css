@@ -11,7 +11,7 @@ html{
 }
 body{
   color :aliceblue;
- background-color: #F2D9FC;
+ background-color: #f9effd;
 }
 body::-webkit-scrollbar{
   background-color: #5B1DA8;
@@ -28,9 +28,10 @@ body::-webkit-scrollbar-thumb{
   color: #2d2043;
 }
 .footer{
-  background-color: black;
+  background-color: #2a2933;
   height: 15vh;
   display: flex;
+margin-top: 0px;
   justify-content: center;
   align-items: center;
   width: 100%;

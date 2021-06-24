@@ -15,7 +15,9 @@ function HomePage() {
     <React.Fragment>
 
     <Welcome></Welcome>
-<AbautMe></AbautMe>
+<AbautMe>
+
+</AbautMe>
 <PortafolioSection></PortafolioSection>
 <Contacto></Contacto>
     </React.Fragment>

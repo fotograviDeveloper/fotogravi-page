@@ -1,0 +1,118 @@
+.form1{
+
+margin-top: 30px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353441;
+}
+
+.form1 .formGrid{
+    display: grid;
+margin-bottom: 50px;
+grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.form1 .formGrid .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+  color:#ffffff
+}
+.form1 .formGrid .info p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 75%;
+    max-width: 400px;
+}
+.form1 .formGrid .FormContainer{
+    transition: all .5s ease-in-out;
+    grid-column-end: span 2;
+}
+
+.form1 .formGrid .FormContainer .Dflex{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+padding-top: 25px;
+
+align-items: center;
+  background-image: url("../../../assets/image/fondo-inicio.jpg") ;
+ 
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+    height: 100%;
+    border-radius: 16px;
+    width: 100%;
+}
+
+
+.form1 .formGrid .FormContainer .Dflex input{
+    display: inline-block;
+ width: 85%;
+ max-width: 450px;
+ height: 50px;
+ font-size: 18px;
+ border-radius: 50px;
+ text-align: center;
+ margin: 10px 0px;
+
+    
+}
+.form1 .formGrid .FormContainer .Dflex textarea{
+    height: 150px;
+    width: 85%;
+padding: 10px;
+    border-radius: 16px;
+    min-height: 100px;
+    max-height: 400px;
+    max-width: 450px;
+}
+.form1 .formGrid .FormContainer .Dflex textarea:placeholder-shown{
+    text-align: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+
+    width:80%;
+}
+.form1 .formGrid .FormContainer button{
+
+    width: 30vh;
+    height: 50px;
+    border-radius: 50px;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+ 
+    transition: all .4s ease-in-out;
+}
+.form1 .formGrid .FormContainer button:hover{
+width: 35vh;
+background-color: #5B1DA8;
+color: #fff;
+font-size: 18px;
+font-family: montserrat;
+font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+    .form1 .formGrid {
+        transition: all .5s ease-in-out;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .form1 .formGrid .FormContainer{
+        grid-column-end: span 1;
+    }
+}
