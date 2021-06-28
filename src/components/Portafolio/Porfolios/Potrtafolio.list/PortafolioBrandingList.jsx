@@ -14,9 +14,9 @@ function PortafolioListDesign(props){
             <CardV2 
             key={Trabajos.id}
             titulo={Trabajos.proyecto}
-            img={Trabajos.img}
+            img={Trabajos.imgmin}
             textoAlterno={Trabajos.textoAlterno}
-            desc={Trabajos.description}
+            desc={Trabajos.desc}
             link= {Trabajos.link} />
             
             
