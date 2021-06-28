@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactoSeccion.css";
-
+import ButtonDark from "../Botones/BotonDark/ButtonDark";
 import IconSocialList from "../icons/Socialmedia/socaliconList";
 class Contacto extends React.Component {
   render() {
@@ -19,7 +19,13 @@ class Contacto extends React.Component {
             </div>
             <div className="icons">
               <IconSocialList></IconSocialList>
-            </div>
+            </div> 
+            <div className="boton">
+
+            </div>  <ButtonDark
+            PalabraClave="CONTACTAME"
+            id="1"
+            Link="/Contacto" />
           </div>
         </div>
       </React.Fragment>

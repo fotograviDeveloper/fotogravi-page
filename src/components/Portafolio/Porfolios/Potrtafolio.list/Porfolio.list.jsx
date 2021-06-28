@@ -13,9 +13,9 @@ function PortafolioList(props){
             <Card1
             key={Portafolios.id}
             titulo={Portafolios.titulo}
-            img={Portafolios.img}
-            textoAlterno={Portafolios.textoAlterno}
-            description={Portafolios.description}
+            img={Portafolios.imgMin}
+            textoAlterno={Portafolios.textoALT}
+         
             link= {Portafolios.link}
 
             

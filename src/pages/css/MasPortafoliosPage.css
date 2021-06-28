@@ -1,42 +1,112 @@
-.buttonBack{
-    background-color: rgb(148, 148, 148);
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    display: inline-block;
-    position: absolute ;
-    z-index: 1;
-    font-size: 20px;
-    margin: 20px;
-    transition: all .3s ease-in-out;
-    padding: 10px;
-
+.buttonBack {
+  background-color: rgb(148, 148, 148);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
 }
-.buttonBack:hover{
-    background-color: blueviolet;
+.buttonBack:hover {
+  background-color: blueviolet;
 }
-.buttonBack i{
-    color: aliceblue;
+.buttonBack i {
+  color: aliceblue;
 }
- .ImG{
+.galImagen .masimagenes .ImG {
+  margin-top: 100px;
+  display: grid;
 
-    margin-top: 100px;
-    display: grid;
-
-  grid-template-columns: repeat(3, 1fr)  ;
+  grid-template-columns: repeat(3, 1fr);
 
   grid-template-rows: auto;
+  transition: all 0.5s ease-in-out;
 }
-.imagenes{
-display: flex;
-justify-content: center;
-align-items: center;
-    width:350px;
+.imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
 
-    height:350px;
+  height: 350px;
 
+  padding: 10px;
+}
+.galImagen .masimagenes  .imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top: 25px;
+ 
+    height: 350px;
+  
     padding: 10px;
+  }
 
-    
+  
+@media screen and (min-width: 2500px) {
+    .galImagen .masimagenes .ImG {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .galImagen .masimagenes  .imagenes {  
+      width:100%;
+      margin-top: 25px;
+
+      height: 600px;
+    }
+  }
+  @media screen and (max-width: 1950px) {
+     
+    .galImagen .masimagenes  .imagenes {  
+      height: 300px;
+    }
+  }
+@media screen and (max-width: 1450px) {
+  .galImagen .masimagenes .ImG {
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: auto;
+    transition: all 0.5s ease-in-out;
+  }
+  .galImagen .masimagenes  .imagenes {
+   
+    width:100%;
+    margin-top: 25px;
+    height: 250px;
+    padding: 10px;
+  }
 }
+@media screen and (max-width: 1150px) {
+    .galImagen .masimagenes .ImG {
+      grid-template-columns: repeat(2, 1fr);
+  
+      grid-template-rows: auto;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+@media screen and (max-width: 850px) {
+    .galImagen .masimagenes .ImG {
+      grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: auto;
+      transition: all 0.5s ease-in-out;
+    }
+    .galImagen .masimagenes  .imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top: 25px;
+  
+        height: 250px;
+      
+        padding: 10px;
+      }
+      
+  }
+  

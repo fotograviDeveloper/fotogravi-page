@@ -5,21 +5,16 @@ import React from "react";
 import AbautMe from "../components/AbautMe/AbautMe";
 //import Navbar from "../components/navbar/Navbar";
 import PortafolioSection from "../components/Portafolio/PortafolioSection";
-import Welcome from "../components/welcome/welcome"
-import Contacto from "../components/ContactoSecction/ContactoSecction"
-
+import Welcome from "../components/welcome/welcome";
+import Contacto from "../components/ContactoSecction/ContactoSecction";
 
 function HomePage() {
   return (
-
     <React.Fragment>
-
-    <Welcome></Welcome>
-<AbautMe>
-
-</AbautMe>
-<PortafolioSection></PortafolioSection>
-<Contacto></Contacto>
+      <Welcome></Welcome>
+      <AbautMe></AbautMe>
+      <PortafolioSection></PortafolioSection>
+      <Contacto></Contacto>
     </React.Fragment>
   );
 }

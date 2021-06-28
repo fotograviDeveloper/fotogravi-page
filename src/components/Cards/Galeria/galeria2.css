@@ -5,3 +5,47 @@
     height: 300px; 
      border-radius: 16px;
 }
+@media screen and (min-width: 2500px) {
+    .imagen img{
+        width: 600px;
+       
+         object-fit: cover;
+        height: 500px; 
+         border-radius: 16px;
+    }
+}
+@media screen and (max-width: 2500px) {
+    .imagen img{
+        width: 600px;
+       
+         object-fit: cover;
+        height: 350px; 
+         border-radius: 16px;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .imagen img{
+        width: 450px;
+       
+         object-fit: cover;
+        height: 300px; 
+         border-radius: 16px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .imagen img{
+        width: 350px;
+      
+        height: 200px; 
+         border-radius: 16px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .imagen img{
+        width: 400px;
+       
+         object-fit: cover;
+        height: 250px; 
+         border-radius: 16px;
+    }
+}

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors")
 const morgan = require ('morgan')
-//const { database } = require("./controler/keys.data");
+const { database } = require("./database/keys.js");
 const mysql = require ("mysql")
 const myConnection = require("express-myconnection");
 
@@ -18,13 +18,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(morgan('dev'))
 app.use(cors());
-app.use(myConnection(mysql, {
-    host: "localhost",
-        user: 'root',
-        password: "",
-        database: "fotograviData",
-        port: "3306"
-}, 'single'))
+app.use(express.json(myConnection));
+
 //routes
 
 app.use(require('./routes/index'));

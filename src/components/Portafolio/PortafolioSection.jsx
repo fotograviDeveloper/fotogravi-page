@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 import Portafolios from "../Portafolio/Porfolios/OtrosPorfolios";
-import PortafolioDesign from "../Portafolio/Porfolios/PortafolioDesign";
+import Branding from "./Porfolios/PortafoliosBranding";
 import Myskills from "../MySkills/skillsico/SkillsIcon.jsx";
 import "./Portafolio.css";
 
@@ -23,7 +23,7 @@ class PortafolioSection extends Component {
                 </p>
             </div>
   
-          <PortafolioDesign></PortafolioDesign>
+          <Branding></Branding>
           </div>
           <div className="grid2">
          

@@ -33,7 +33,7 @@ width: 100%;
 .grid1 .info {
   border-radius: 0px 0px 20px 20px;
   padding: 25px;
-color: black;
+color: rgb(27, 27, 27);
   padding-left: 100px;
   padding-right: 150px;
   font-family: montserrat;
@@ -56,10 +56,10 @@ color: black;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 130px;
   grid-gap: 15px;
-background-color: #5B1DA8;
+
   padding-left: 50px;
   border-radius: 16px 16px 0px 0px;
-  box-shadow: 0px 5px 10px #5B1DA8 ;
+
   align-items: center;
   
 }
@@ -67,7 +67,7 @@ background-color: #5B1DA8;
   grid-row:span 2;
 }
 .grid2 .textoD p {
-  color: rgb(255, 255, 255);
+  color: rgb(49, 49, 49);
   font-size: 18px;
   margin: 50px;
   margin-top: 0px;
@@ -120,6 +120,9 @@ justify-content: center;
   .grid2 .textoD p{
     font-size: 20px;
   }
+  .grid1 .info {
+    font-size: 18px;
+  }
   .skills{
 
     display: block;
@@ -129,15 +132,23 @@ justify-content: center;
 @media (max-width: 750px){
   .grid2{ 
     margin: 0px;
+    
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr) 150px  ;
+  }
+  .grid1 h2{
+    font-size: 30px;
+    padding-left: 40px;
   }
   .grid2 .parrafoBranding{
     grid-row: auto;
   }
+  .grid1 .info {
+    font-size: 16px;
+  }
   .grid2 .textoD p{
 
-    font-size: 22px;
+    font-size: 18px;
   }
   .skills{
    
@@ -151,7 +162,7 @@ justify-content: center;
 @media (max-width: 450px){
 
   .grid2 .textoD p{
-    font-size: 18px;
+    font-size: 16px;
   }
   .skills{
    

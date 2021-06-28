@@ -10,8 +10,8 @@ html{
 
 }
 body{
-  color :aliceblue;
- background-color: #f9effd;
+  color :rgb(252, 240, 255);
+ background-color: #f6f0f0;
 }
 body::-webkit-scrollbar{
   background-color: #5B1DA8;

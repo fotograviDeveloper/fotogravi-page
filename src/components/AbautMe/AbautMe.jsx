@@ -70,9 +70,9 @@ function AbautMe() {
               <p>
                 Gracias a mi experiencia en múltiples profesiones puedo
                 brindarte una solución acorde a tus necesidades.
-              </p>
+              </p>   <div className="container"> <Route exact path="/" component={VerMasDeMi}/></div>
             </div>
-            <Route exact path="/" component={VerMasDeMi}/>
+        
           </div>
      
         </div>

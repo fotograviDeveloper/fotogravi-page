@@ -6,11 +6,13 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Trabajos from "./pages/TrabajosPage";
 import Footer from "./components/footer/footerPage";
 
-import Navbar from "./components/navbar/Navbar";
+//import Navbar from "./components/navbar/Navbar";
 import Conoceme from "./pages/conoceme";
 import Contacto from "./pages/Contacto";
 import NavbarHome from "./components/navbar/NavbarHome/NavbarHome";
 import Portafolio from "./pages/Portafolio";
+import navbar1 from "./components/navbar/navbar1/navbar1";
+import enviadoExitosamente from "./components/mensajeExito/EnvioExitoso";
 
 const HomePage = lazy(() => import("./pages/Home.jsx"));
 const Masportafolios = lazy(() => import("./pages/MasPortafolios"));
@@ -28,7 +30,7 @@ function App() {
         
           <Route exact path="/" component={HomePage} />{" "}
         </Suspense>
-        <Route path="/" component={Navbar} />
+       
         <Route exact path="/Design" component={Trabajos} />
         <Suspense
           className="suspense"
@@ -41,6 +43,8 @@ function App() {
         </Suspense>
 
         <Route path="/Contacto" component={Contacto} />
+        <Route exact path="/correoEnviado" component={enviadoExitosamente} />
+        <Route path="/test" component={navbar1} />
         <Footer></Footer>
       </BrowserRouter>
     </div>

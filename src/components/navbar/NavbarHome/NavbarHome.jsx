@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import img1 from "../../../assets/svg/logo2.png";
+import img1 from "../../../assets/svg/Logo2.png";
 import "../navbar.css";
 class NavbarHome extends Component {
   render() {
     return (
       <React.Fragment>
         <div className="barra">
-          <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand ml-auto" href="/">
+          <nav className="navbar navbar-expand-lg ">
+            <a className="navbar-brand ml-auto" href="/">
               <img className="img"src={img1} alt="logotipo de mi marca"></img>
             </a>
             <button
@@ -22,7 +22,7 @@ class NavbarHome extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-center"
+              className="collapse navbar-collapse justify-content-center"
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav  text-center">
@@ -48,23 +48,23 @@ class NavbarHome extends Component {
               <div className="d-flex justify-content-end socialMedia ">
                 {" "}
                 <a
-                  class="navbar-brand"
+                  className="navbar-brand"
                   href="https://www.facebook.com/Garces.fotogravi"
                   target="_bank"
                 >
-                  <i class="fab fa-facebook-square"></i>
+                  <i className="fab fa-facebook-square"></i>
                 </a>
                 <a
-                  class="navbar-brand"
+                  className="navbar-brand"
                   href="https://www.linkedin.com/in/fotogravi-studio/"
                   target="_bank"
                 >
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>
           </nav>
-        </div>''
+        </div>
       </React.Fragment>
     );
   }

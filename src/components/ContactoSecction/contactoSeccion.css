@@ -28,3 +28,34 @@
     font-size: 40px;
     letter-spacing: 5px;
 }
+@media screen and (max-width:1150px) {
+    
+    .contenedor{
+        width: 400px;
+      
+    }
+    .contenedor p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contenedor h2{
+         font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width:550px) {
+    .seccionContacto{
+        height: 70vh;
+    }
+    .contenedor{
+        width: 300px;
+    }
+    .contenedor p{
+        font-size: 16px;
+     
+    }
+    .contenedor h2{
+         font-size: 25px;
+     
+    }
+}

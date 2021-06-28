@@ -37,14 +37,7 @@ class IconSocialList extends React.Component {
                 Icon: "fab fa-youtube-square",
                 link: "https://www.youtube.com/channel/UCdVM_v-KGzbzHU6FJ3Ad7AA",
                 alt: "link a youtube"
-            },
-            
-            {
-              id : "5",
-              Icon: "fas fa-mail-bulk",
-              link: "./Contacto",
-              alt: "Enviar correo"
-          }
+            }
           
       ],
     };
