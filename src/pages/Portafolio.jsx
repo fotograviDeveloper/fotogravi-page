@@ -8,9 +8,11 @@ function Portafolio () {
     return (
       <React.Fragment>
         <PortadaImg 
-        img="https://gesvin.files.wordpress.com/2018/07/portafolioevidencias10herramientaswebimplementarlos-artc3adculo-bloggesvin.jpg?w=640"
-        titulo="Bienvenido"/>
-<PortafolioSection></PortafolioSection>
+        img="https://images.pexels.com/photos/8548383/pexels-photo-8548383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        titulo="Mi portafolio "/>
+<PortafolioSection>
+
+</PortafolioSection>
       </React.Fragment>
     );
   

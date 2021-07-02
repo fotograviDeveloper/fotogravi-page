@@ -6,7 +6,7 @@ class NavbarHome extends Component {
     return (
       <React.Fragment>
         <div className="barra">
-          <nav className="navbar navbar-expand-lg ">
+          <nav className="navbar  navbar-expand-lg ">
             <a className="navbar-brand ml-auto" href="/">
               <img className="img"src={img1} alt="logotipo de mi marca"></img>
             </a>
@@ -22,7 +22,7 @@ class NavbarHome extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse justify-content-center"
+              className="collapse navbar-collapse justify-content-end m-5"
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav  text-center">

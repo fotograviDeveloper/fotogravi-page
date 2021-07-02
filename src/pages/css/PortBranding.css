@@ -1,11 +1,8 @@
-.BrandingPage{
-    background-color: rgba(108, 26, 216, 0.356);
-  
-}
 
 
 .BrandingPage .contenido {
  display: grid;
+ background-color: #494949 0.2;
  grid-template-columns: 1fr ;
  grid-template-rows: auto;
      padding: 25px;

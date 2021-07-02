@@ -5,9 +5,9 @@ import FotoDeMi from "../../assets/image/Raul_Garces1.png";
 
 
 import "./abautme.css";
-import {BrowserRouter } from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 
-//import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
+import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
 
 function AbautMe() {
 
@@ -71,9 +71,8 @@ function AbautMe() {
                 Gracias a mi experiencia en múltiples profesiones puedo
                 brindarte una solución acorde a tus necesidades.
               </p>
-              {/*<div className="container">
-                <Route exact path="/" component={VerMasDeMi} /></div>*/
-              }
+              <div className="container">
+                <Route exact path="/" component={VerMasDeMi} /></div>
             </div>
             
 

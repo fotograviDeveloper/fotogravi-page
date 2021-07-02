@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import ButtonDark from "../components/Botones/BotonDark/ButtonDark";
 import host from "../control/diminio";
 import PortadaImg from "../components/Portadas/Portada1/Portada1";
 import Parrafo from "../components/parrafo/parrafo"
@@ -20,6 +21,8 @@ const PortBranding = () => {
         fetchPortafolios();
     }, [link]);
 
+    
+
     return (
         <React.Fragment>
             <PortadaImg
@@ -29,7 +32,7 @@ const PortBranding = () => {
                 fontSize="30px"
                 ico2={""}
             ></PortadaImg>{" "}
-            <div className="BrandingPage">
+            <div className="BrandingPage" style={{backgroundColor: datos.Color}}>
 
                 <div className="container ">
 
@@ -73,10 +76,17 @@ const PortBranding = () => {
                                         <div className="tipo2">Bebas new</div>
                                     </div>
                                 </div></div>
-                        </div></div>
+                        </div>
+                        
+                        </div>
 
-
+<ButtonDark
+className="contacto"
+ PalabraClave="CONTACTAME"
+ id="1"
+ Link="/Contacto" />
                 </div>
+                
             </div>
         </React.Fragment>
     )

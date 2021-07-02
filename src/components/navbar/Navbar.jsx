@@ -24,10 +24,10 @@ class Navbar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse justify-content-center"
+              className="collapse navbar-collapse justify-content-end m-5"
               id="navbarNavAltMarkup"
             >
-              <div className="navbar-nav  text-center">
+              <div className="navbar-nav text-end">
                 <Link className="nav-item nav-link " to="/">
                   Inicio <span className="sr-only"></span>
                 </Link>

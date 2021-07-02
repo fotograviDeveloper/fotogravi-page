@@ -1,14 +1,15 @@
 .center{
     display: flex;
-
-    align-items: stretch;
+height: auto;
+    align-items: center;
   justify-content: center;
   
 }
 .CrardTrabajo{
-
-display: inline-flex;
-     height: 100%;
+background-color: aqua;
+display: flex;
+flex-wrap: wrap;
+  justify-content: center;
   margin-top: 25px; 
   text-align: center;
 }
@@ -18,28 +19,17 @@ display: inline-flex;
     .CrardTrabajo{
  
        
-        height: max-content;
+        height: fit-content;
     }
 .center{
   width: 100%;
-    height: max-content;
+    height: fit-content;
 }
 }
 @media (max-width: 980px) {
 
-    .CrardTrabajo{
-
-      width: auto;
-      height: 110vh;
-        display: grid;
- 
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(4, 250px);
-      
-      text-align: center;
-    }
 .center{
-    height: 110vh;
+    height: fit-content;
 }
 } 
 @media (max-height:800px){

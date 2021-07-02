@@ -13,7 +13,7 @@
 .grid1 {
   height: max-content;
   
-  padding-top: 100px;
+  padding-top: 70px;
 margin-top: 0px;
 width: 100%;
 
@@ -38,6 +38,7 @@ color: rgb(27, 27, 27);
   padding-right: 150px;
   font-family: montserrat;
   font-size: 20px;
+  word-wrap: break-word;
 
   font-weight: 600;
 }
@@ -68,6 +69,7 @@ color: rgb(27, 27, 27);
 }
 .grid2 .textoD p {
   color: rgb(49, 49, 49);
+
   font-size: 18px;
   margin: 50px;
   margin-top: 0px;
@@ -84,14 +86,15 @@ font-weight: 600;
 }
 
 .skills {
-  background-color: #FFF279;
+word-wrap: break-word;
+
   margin: 25px; 
 display: flex;
 height: max-content;
 justify-content: center;
   text-align: center;
-  box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.52);
-  border-radius: 5px 10px 40px 40px;
+  box-shadow: 3px 5px 10px 2px rgba(175, 175, 175, 0.623);
+  border-radius: 0px 10px 00px 10px;
   align-items: center;
 }
 .skills h3 {
@@ -121,6 +124,11 @@ justify-content: center;
     font-size: 20px;
   }
   .grid1 .info {
+     
+     padding-left: 0px;
+   
+    padding-right: 0px;
+    padding: 20px;
     font-size: 18px;
   }
   .skills{

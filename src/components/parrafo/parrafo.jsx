@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./parrafo.css"
 class Parrafo extends Component {
+   
     render() {
         return (
             <div className="componentParrafo">
