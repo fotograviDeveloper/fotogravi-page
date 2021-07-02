@@ -1,0 +1,20 @@
+.componentParrafo{
+  background-color: #F6F0F0;
+  padding: 25px;
+margin-top: 10px;
+  border-radius: 16px;
+width: 100%;
+    height: fit-content;
+}
+.componentParrafo h2{
+    font-size: 25px;
+        font-family: bebas neue;
+    color: rgb(49, 49, 49); 
+   
+}
+.componentParrafo p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    font-family: montserrat;
+}

@@ -72,13 +72,13 @@ const FormContact = () =>  {
                   name="telefono"
                   onChange={handleInputChange}
                 />
-                <input type="text" id="asunto" placeholder="Agrega un asunto" />
+                <input type="text" id="asunto" name="asunto"placeholder="Agrega un asunto"   onChange={handleInputChange} />
                 <textarea
                   type="text"
                   className="textarea"
                   id="mensaje"
                   placeholder="Escribe aqui tu mensaje o duda."
-                  name="texto"
+                  name="mensaje"
                   onChange={handleInputChange}
                 ></textarea>
                 <button type="submit" value="Submit">ENVIAR</button>

@@ -1,0 +1,131 @@
+.BrandingPage{
+    background-color: rgba(108, 26, 216, 0.356);
+  
+}
+
+
+.BrandingPage .contenido {
+ display: grid;
+ grid-template-columns: 1fr ;
+ grid-template-rows: auto;
+     padding: 25px;
+
+     
+}
+.BrandingPage .contenido .parr{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandingPage .contenido  .brif{
+    display: flex;
+    flex-wrap: nowrap;
+    height: fit-content;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.BrandingPage .contenido .parr1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenido .brif img{
+    width:30%;
+    object-fit: cover;
+margin: 10px;
+    border-radius: 16px;
+
+    height:570px;
+}
+.contenido  img{
+    width:100%;
+    object-fit: cover;
+margin: 10px 0px 10px 0px;
+    border-radius: 16px;
+
+    height:250px;
+}
+
+
+
+.contenido .principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     background-color:#494949;
+     border-radius: 16px;
+    height: fit-content;
+}
+.contenido .colortipografia{
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+}
+.contenido .colortipografia .colores{
+display: flex;
+
+flex-direction: row;
+justify-content: space-around;
+margin: 10px;
+
+width: 500px;
+
+}
+.contenido .colortipografia .color1{
+   
+    width: 150px;
+    height: 100px;
+
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.contenido .colortipografia .color2{
+  
+    width: 150px;
+    height: 100px;
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.contenido .colortipografia .tipografia{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    background-color: #C5A3E7;
+    width:  500px;
+    justify-content: space-around;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+
+@media (max-width: 900px) {
+    .BrandingPage .contenido  .brif{
+  
+        flex-wrap: wrap;
+        height: max-content;
+    
+        flex-direction: column;
+       
+    }
+    .contenido .brif img{
+        width:100%;
+        object-fit: cover;
+    margin: 10px;
+        border-radius: 16px;
+    
+        height:250px;
+    }
+}

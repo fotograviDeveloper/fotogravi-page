@@ -5,27 +5,27 @@ import FotoDeMi from "../../assets/image/Raul_Garces1.png";
 
 
 import "./abautme.css";
-import { Route, BrowserRouter } from "react-router-dom";
+import {BrowserRouter } from "react-router-dom";
 
-import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
+//import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
 
 function AbautMe() {
 
-  
-    return (
-      <React.Fragment>
- <BrowserRouter>
+
+  return (
+    <React.Fragment>
+      <BrowserRouter>
 
         <div className="abaut" id="abautme">
           <div className="botonDescargaCV">
             {" "}
-            
+
             <div className="ico">
-              <a href={pdf} download="Curriculum Vitae Raul Garces">  
+              <a href={pdf} download="Curriculum Vitae Raul Garces">
                 <span>
-                
+
                   <i className="fas fa-download" alt="Descarga mi Cv" title="Descarga mi CV">
-                   
+
                   </i>
                 </span>
               </a>
@@ -70,15 +70,19 @@ function AbautMe() {
               <p>
                 Gracias a mi experiencia en múltiples profesiones puedo
                 brindarte una solución acorde a tus necesidades.
-              </p>   <div className="container"> <Route exact path="/" component={VerMasDeMi}/></div>
+              </p>
+              {/*<div className="container">
+                <Route exact path="/" component={VerMasDeMi} /></div>*/
+              }
             </div>
-        
+            
+
           </div>
-     
+
         </div>
-       </BrowserRouter>
-      </React.Fragment>
-    );
- 
+      </BrowserRouter>
+    </React.Fragment>
+  );
+
 }
 export default AbautMe;

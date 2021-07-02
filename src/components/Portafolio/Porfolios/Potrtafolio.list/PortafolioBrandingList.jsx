@@ -15,7 +15,7 @@ function PortafolioListDesign(props){
             key={Trabajos.id}
             titulo={Trabajos.proyecto}
             img={Trabajos.imgmin}
-            textoAlterno={Trabajos.textoAlterno}
+            textoAlterno={"imagen min"}
             desc={Trabajos.desc}
             link= {Trabajos.link} />
             

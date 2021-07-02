@@ -11,9 +11,9 @@ const Branding = () => {
   const [data, setData] = useState([])
   useEffect(() =>{
    const fetchPortafolios = async () => {
-      let res = await fetch(`http://${host}/api/Design/branding`);
+      let res = await fetch(`http://${host}/api/Design/Branding`);
       let data = await res.json();
-     setData(data) 
+      setData(data) 
      console.log(data)
     
     };

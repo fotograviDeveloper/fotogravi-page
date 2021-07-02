@@ -26,11 +26,14 @@ grid-template-columns: .5fr 1fr .5fr;
     letter-spacing: 5px;
 }
 .portada .titulo h3{
-    background-color: #9342f555;
+    background-color: #4d02aaa1;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     height: 20%;
     text-align: center;
 
