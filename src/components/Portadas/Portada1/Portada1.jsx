@@ -11,14 +11,14 @@ class PortadaImg extends React.Component {
       , fontSize:`${this.props.fontSize}` }}
         >
           <div className="ico">
-            <i class={this.props.ico1}></i>
+            <i className={this.props.ico1}></i>
           </div>
           <div className="titulo">
             <h3   style={{ fontSize:`${this.props.fontSize}` }}>{this.props.titulo}</h3>
           </div>
         
         <div className="ico">
-          <i class={this.props.ico2}></i>
+          <i className={this.props.ico2}></i>
         </div></div>
       </React.Fragment>
     );

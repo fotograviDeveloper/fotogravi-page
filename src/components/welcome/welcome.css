@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
 
 .bienvenida {
-   background: #7F00FF;  /* fallback for old browsers */
+   background: #8e1ffc;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-image: url("../../assets/image/fondo-inicio.jpg") ;
@@ -121,19 +121,20 @@ font-size: 80px;
 
 @media (max-width :600px){
   .informacion{
+    margin-top: 100px;
     transition: all 1s;
     width: 400px;
-    height: auto;
+    height: fit-content;
     padding-top: 0px;
     padding: 10px;
   }
   .informacion h1{
-    font-size: 18px;
+    font-size: 14px;
 font-weight: 300;
 text-align: center;
   }
   .informacion p{
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 800;
   }
   .boton span a i{
@@ -154,12 +155,12 @@ text-align: center;
   
   }
   .informacion h1{
-    font-size: 18px;
+    font-size: 12px;
     
     transition: all 1s;
   }
   .informacion p{
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 2px;
     padding-top: 20px;
     padding-left: 5px;

@@ -42,6 +42,7 @@
   color: aliceblue;
   background-color: #FFD81B;
   padding-top: 20px;
+  padding-left: 3px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
   font-size: 40px;
@@ -182,7 +183,7 @@ height: 200px;
     transition: all 0.6s ease-out;
   }
   .cardDesign:hover > .links img {
-    height: 120px;
+    height: 90px;
     width: 100%;
    
   }

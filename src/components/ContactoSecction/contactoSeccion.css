@@ -45,7 +45,7 @@
 }
 @media screen and (max-width:550px) {
     .seccionContacto{
-        height: 70vh;
+        height: 110vh;
     }
     .contenedor{
         width: 300px;
