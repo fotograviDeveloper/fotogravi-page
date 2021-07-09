@@ -18,8 +18,8 @@ De forma visual y universal"</p>
  <h1>Raúl Garcés</h1>
    
           </div>
-          <div className="boton">
-            <span>
+          <div className="boton ">
+            <span className="animated flip">
               {" "}
               <a href="#abautme">
                 <i className="fas fa-sort-down"></i>

@@ -21,7 +21,7 @@ class Navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
             </button>
             <div
               className="collapse navbar-collapse justify-content-end m-5"

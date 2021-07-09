@@ -21,7 +21,9 @@ const PortBranding = () => {
         fetchPortafolios();
     }, [link]);
 
-    
+//obtener datos de la api colores y tipografias 
+
+
 
     return (
         <React.Fragment>
@@ -32,18 +34,17 @@ const PortBranding = () => {
                 fontSize="30px"
                 ico2={""}
             ></PortadaImg>{" "}
-            <div className="BrandingPage" style={{backgroundColor: datos.Color}}>
-
-                <div className="container ">
+            <div className="BrandingPage" >
 
                     <div className="contenido">
                         <div className="pageContent">
                             <div className="brif">
                                 <img src={datos.imgBrief} alt="" />
-                                <div className="parr1">   <Parrafo className="brief"
+                                <div className="parr1">   
+                                <Parrafo className="brief"
                                     tituloSeccion="Brieffing"
                                     parrafo={datos.briefTXT} />
-                                    <br></br>
+                                   
                                     <Parrafo className="brief"
                                         tituloSeccion="Analisis del mercado"
                                         parrafo={datos.analisisMercado} />
@@ -53,9 +54,9 @@ const PortBranding = () => {
                                 <Parrafo className="problem"
                                     tituloSeccion="Problema"
                                     parrafo={datos.problema} />
-                                     
+ <img className="imgProblema"src={datos.imgProblema} alt="" />
                             </div>
-<img src={datos.imgProblema} alt="" />
+                           
                             <div className="parr">
                                 <Parrafo className="solucion"
                                     tituloSeccion="Solucion"
@@ -68,8 +69,8 @@ const PortBranding = () => {
 
                                 <div className="colortipografia">
                                     <div className="colores">
-                                        <div className="color1" style={{backgroundColor:"#5B1DA8"}}>#5B1DA8</div>
-                                        <div className="color2" style={{backgroundColor:"#FFD81B"}}> #FFD81B</div>
+                                        <div className="color1" style={{ backgroundColor: "#5B1DA8" }}>#5B1DA8</div>
+                                        <div className="color2" style={{ backgroundColor: "#FFD81B" }}> #FFD81B</div>
                                     </div>
                                     <div className="tipografia">
                                         <div className="tipo1">Montserrat</div>
@@ -77,17 +78,17 @@ const PortBranding = () => {
                                     </div>
                                 </div></div>
                         </div>
-                        
-                        </div>
 
-<ButtonDark
-className="contacto"
- PalabraClave="CONTACTAME"
- id="1"
- Link="/Contacto" />
+                    </div>
+
+                    <ButtonDark
+                        className="contacto"
+                        PalabraClave="CONTACTAME"
+                        id="1"
+                        Link="/Contacto" />
                 </div>
-                
-            </div>
+
+  
         </React.Fragment>
     )
 }

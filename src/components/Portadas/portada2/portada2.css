@@ -1,0 +1,59 @@
+.portada2 {
+    height: 55vh;
+    width: 100%;
+    transition: all .3s ease-out;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+  
+}
+
+.portada2 .heder{
+    background: rgba( 144, 19, 254, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 100%;
+height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: bebas neue;
+    letter-spacing: 5px;
+}
+.portada .heder h3{
+ 
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    height: 20%;
+    text-align: center;
+
+}
+
+
+@media (max-width: 700px){
+    .portada .titulo h3{
+  
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        height: fit-content;
+    }
+}

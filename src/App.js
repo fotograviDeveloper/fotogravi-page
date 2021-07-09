@@ -5,8 +5,7 @@ import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import Trabajos from "./pages/TrabajosPage";
 import Footer from "./components/footer/footerPage";
-
-import Navbar from "./components/navbar/Navbar";
+//import Navbar from "./components/navbar/Navbar";
 import Conoceme from "./pages/conoceme";
 import Contacto from "./pages/Contacto";
 import NavbarHome from "./components/navbar/NavbarHome/NavbarHome";
@@ -31,7 +30,7 @@ function App() {
      
           <Route exact path="/" component={HomePage} />{" "}
         </Suspense>
-            <Route  path="/" component={Navbar} />
+            {/* <Route  path="/" component={Navbar} /> */}
         <Route exact path="/Design" component={Trabajos} />
         <Suspense
           className="suspense"

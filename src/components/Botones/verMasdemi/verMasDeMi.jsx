@@ -9,7 +9,11 @@ class VerMasDeMi extends React.Component {
 
 <div className="boton  " >
 
-<a className="Link" href="/Conoceme"><button type="button" className="btn btn-dark">   Ver mas 🤓👍</button></a>
+<a className="Link" href="/Conoceme">
+    <button type="button" className="buton"> 
+      Ver mas informacion
+      </button>
+      </a>
 </div>
             
         )

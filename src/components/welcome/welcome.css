@@ -12,10 +12,10 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
   height: 100vh;
+  min-height: fit-content;
   width: 100%;
-  display: grid;
-  grid-template-rows: 90vh 10vh;
-
+  display: flex;
+ flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -69,13 +69,17 @@ font-style: italic;
 
 .boton{
 
-    height: 250px;
-grid-column-end: span 2;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 .boton span a i{
-   color: aliceblue;
+   color: rgba(255, 255, 255, 0.787);
+   margin: 0px;
+   padding: 0px;
    transition: all .6s ease-out;
-font-size: 80px;
+font-size: 50px;
 
 }
 .boton span a i:hover{

@@ -1,5 +1,6 @@
 import {React, useState} from "react";
 
+import host from "../../../control/diminio"
 
 const FormContact = () =>  {
   
@@ -23,7 +24,7 @@ const FormContact = () =>  {
         }
     
         const enviarDatos = async (e) => {
-
+ e.preventDefault()
             try {
                 let config = {
                     method:"post",
@@ -32,9 +33,12 @@ const FormContact = () =>  {
                         'content-Type':"application/json"
                     }, body: JSON.stringify(datos)
                 }
-          await fetch("http://localhost:3001/Contacto/send", config)
+          await fetch(`http://${host}/Contacto/send`, config)
                // let json = await res.json()
-           alert("se envio correctamente")
+            
+     
+           window.location.href = "correoEnviado";
+    
              // console.log(json)
              
             } catch (error) {
@@ -43,7 +47,7 @@ const FormContact = () =>  {
             console.log('enviando datos...' + datos.nombre + ' ' + datos.apellido)
         }
       return (
-        <form action="/correoEnviado" onSubmit={enviarDatos} className="Dflex">
+        <form href="correoEnviado" onSubmit={enviarDatos} className="Dflex">
         
           <input
                   type="text"

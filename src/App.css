@@ -10,8 +10,8 @@ html{
 
 }
 body{
-  color :rgb(252, 240, 255);
- background-color: #f6f0f0;
+  color :rgb(255, 255, 255);
+ background-color: #fbfbfb;
 }
 body::-webkit-scrollbar{
   background-color: #855cb8;
@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb{
   color: #2d2043;
 }
 .footer{
-  background-color: #2a2933;
+  background-color: #494949;
   height: 15vh;
   display: flex;
 margin-top: 0px;

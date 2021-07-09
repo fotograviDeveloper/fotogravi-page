@@ -1,5 +1,8 @@
 .componentParrafo{
-  background-color: #F6F0F0;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4409bb, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3e0ba5, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   padding: 25px;
   word-wrap: break-word;
   white-space: pre-line;
@@ -11,15 +14,50 @@ width: 100%;
 .componentParrafo h2{
     font-size: 30px;
         font-family: bebas neue;
-    color: rgb(49, 49, 49); 
+    color: rgb(255, 255, 255); 
    
 }
 .componentParrafo p{
 
     font-size: 16px;
-
-
     font-weight: 500;
-    color: rgb(61, 61, 61);
+    color: rgba(255, 255, 255, 0.822);
     font-family: montserrat;
+}
+
+@media (max-width: 900px) {
+  .componentParrafo{
+ 
+    padding: 25px;
+    word-wrap: normal;
+    white-space: pre-wrap;
+  margin-top: 10px;
+    border-radius: 16px;
+  width: 80%;
+    
+  }
+  .componentParrafo p{
+
+    font-size: 14px;
+    font-weight: 400;
+  
+}
+}
+@media (max-width: 600px) {
+  .componentParrafo{
+ 
+    padding: 20px;
+    word-wrap: normal;
+    white-space: pre-wrap;
+  margin-top: 10px;
+    border-radius: 14px;
+  width: max-content;
+    
+  }
+  .componentParrafo p{
+width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+  
+}
 }

@@ -5,7 +5,7 @@ import FotoDeMi from "../../assets/image/Raul_Garces1.png";
 
 
 import "./abautme.css";
-import {BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import VerMasDeMi from "../Botones/verMasdemi/verMasDeMi";
 
@@ -34,7 +34,7 @@ function AbautMe() {
 
           <div className=" grid">
             <div className="information">
-              <h2> HOLA. YO SOY RAÚL GARCÉS</h2>
+              <h2> YO SOY RAÚL GARCÉS</h2>
               <br />
               <p className="my">
                 Tengo 23 años. Soy de monterrey N.L. México. Y soy diseñador
@@ -48,14 +48,12 @@ function AbautMe() {
 
             <div className="parrafo">
               <p className="pr1">
-                Dest hace mas de 4 años me interese por el diseño grafico. Esto
-                me llevo a aprender y desarrollar múltiples habilidades que me
-                han ayudado a llegar hasta este punto.{" "}
+                Desde hace más de 4 años me interese por el diseño grafico. Esto me llevo a aprender y desarrollar múltiples habilidades que me ayudaron a llegar hasta este punto.{" "}
               </p>
             </div>
             <div className="parrafo">
               <p>
-                Cree mi marca personal <b>Fotogravi Studio.</b> <br></br>Para
+                Cree mi marca personal <b>Fotogravi Studio.</b> <br/>Para
                 ofrecer mis servicios como diseñador gráfico, programador y
                 agente digital
               </p>
@@ -71,11 +69,11 @@ function AbautMe() {
                 Gracias a mi experiencia en múltiples profesiones puedo
                 brindarte una solución acorde a tus necesidades.
               </p>
-              <div className="container">
+             
+
+ <div className="containe">
                 <Route exact path="/" component={VerMasDeMi} /></div>
             </div>
-            
-
           </div>
 
         </div>

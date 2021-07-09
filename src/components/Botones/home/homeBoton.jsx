@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
  class BotonHome extends React.Component{
      render(){
          return(<div className="contaienr">
-        <Link to="/"><h2>inicio</h2></Link> </div>
+        <Link to="/"><i class="fas fa-home icon"></i></Link> </div>
          )
      }
  }

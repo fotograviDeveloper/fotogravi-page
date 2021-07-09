@@ -19,11 +19,13 @@ color: #FFD81B;
 
 
 /* contenido del abaut me  grid*/
-/*Contenedor padre*/  .abaut {
+/*Contenedor padre*/  
+.abaut {
   height: min-content;
 padding: 50px;
-
-  background-color: #353441;
+background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-family: "Montserrat", sans-serif;
 }
@@ -74,7 +76,24 @@ height: 80vh;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
-
+.parrafo .containe .buton{
+ padding: 15px;
+ width: 100%;
+  min-height: fit-content;
+}
+.containe button{
+  background: rgba(78, 15, 133, 0.418);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 16px;
+  border: none;
+  width: 100%;
+ 
+  color: aliceblue;
+}
 /*------------------media query page responsive 4k------------*/
 
 @media screen and (min-width :2500px) {
@@ -114,6 +133,7 @@ height: 80vh;
  
   }
   
+
   }
 
   /*------------------media query page responsive 900------------*/

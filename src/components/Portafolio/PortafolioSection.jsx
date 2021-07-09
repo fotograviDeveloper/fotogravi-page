@@ -27,6 +27,7 @@ class PortafolioSection extends Component {
             </div>
 
             <Branding></Branding>
+          
           </div>
           <div className="grid2">
 
@@ -37,7 +38,8 @@ class PortafolioSection extends Component {
                  
                   También podrás encontrar algunas de mis ilustraciones y matte
                   painting que he hecho a lo largo del tiempo. Asi como mis
-                  diseños y paginas web creadas hasta ahora.
+                  diseños y paginas web creadas hasta ahora.<br></br>
+                  Da clic en algino de ellos para ver mas.
                 </p></div>
             </div>
             <div className="portafolios">

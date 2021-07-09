@@ -1,17 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import img1 from "../../../assets/svg/Logo2.png";
 import "../navbar.css";
-class NavbarHome extends Component {
-  render() {
+
+const NavbarHome = ()=> {
+
+  
+    
     return (
       <React.Fragment>
-        <div className="barra">
+       {
+         
+   }
+        <div className="barra" id="navbar">
           <nav className="navbar  navbar-expand-lg ">
             <a className="navbar-brand ml-auto" href="/">
               <img className="img"src={img1} alt="logotipo de mi marca"></img>
             </a>
             <button
               className="navbar-toggler"
+              id="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNavAltMarkup"
@@ -19,25 +26,25 @@ class NavbarHome extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"><i className="fas fa-hamburger"></i></span>
             </button>
             <div
               className="collapse navbar-collapse justify-content-end m-5"
               id="navbarNavAltMarkup"
             >
-              <div className="navbar-nav  text-center">
-                <a className="nav-item nav-link " href="#inicio">
-                  Inicio <span class="sr-only"></span>
+              <div className="navbar-nav  text-center" id="item">
+                <a className="nav-item nav-link " href="#inicio" >
+                  Inicio <span className="sr-only"></span>
                 </a>
-                <a className="nav-item nav-link" href="#abautme">
+                <a className="nav-item nav-link" href="#abautme" id="item" >
                   Conoceme
                 </a>
-                <a className="nav-item nav-link" href="#Portafolio">
+                <a className="nav-item nav-link" href="#Portafolio" id="item">
                   Portafolio
                 </a>
-                {/* <a className="nav-item nav-link" href="#Servicios">
+                <a className="nav-item nav-link" href="#Servicios"id="item">
                   Servicios
-                </a>*/}
+                </a>
                 <a className="nav-item nav-link" href="#Contactame">
                   Contactame
                 </a>
@@ -45,11 +52,11 @@ class NavbarHome extends Component {
                   <Blog></Blog>
                 </a>*/}
               </div>
-              <div className="d-flex justify-content-end socialMedia ">
+              <div className="d-flex justify-content-end socialMedia " id="item">
                 {" "}
                 <a
                   className="navbar-brand"
-                  href="https://www.facebook.com/Garces.fotogravi"
+                  href="https://www.facebook.com/Fotogravi.Design"
                   target="_bank"
                 >
                   <i className="fab fa-facebook-square"></i>
@@ -68,5 +75,5 @@ class NavbarHome extends Component {
       </React.Fragment>
     );
   }
-}
+
 export default NavbarHome;

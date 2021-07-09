@@ -1,0 +1,62 @@
+.marca{
+    min-height: max-content;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.marca h2{
+    color: #5B1DA8;
+}
+.vision {
+    height: 100vh;
+  
+    width: 100%;
+    color: #5B1DA8;
+    background: rgb(255,255,255);
+    background: linear-gradient(170deg, rgba(255,255,255,0.4738095067128414) 23%, rgba(255,242,121,1) 100%);     
+}
+.vision p{
+    color: #fff;
+}
+.vision .marcaGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marca .marcaGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   padding-left: 25px;
+
+  
+}
+
+.marca .titulo{
+   grid-column-end: span 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgMarca img{
+
+width: 80%;
+}
+
+.marca .marcaText{
+    background-color: #5B1DA8;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+
+}
