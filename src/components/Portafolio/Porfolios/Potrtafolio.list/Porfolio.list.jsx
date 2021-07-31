@@ -4,8 +4,9 @@ import Card1 from "../../../Cards/Card1/Card1"
 import "./masportafolios.css"
 
 function PortafolioList(props){
-    return(<div className="masPortafolios"> 
-        <div className="Crards" >   
+    return( <React.Fragment>
+        <div className="masPortafolios"> 
+ 
         {props.Portafolios.map((Portafolios) => {
          
         return(
@@ -23,8 +24,8 @@ function PortafolioList(props){
            
           
         )
-        })} </div>
-         </div>
+        })}   
+         </div></React.Fragment>
     )
 }
 export default PortafolioList; 

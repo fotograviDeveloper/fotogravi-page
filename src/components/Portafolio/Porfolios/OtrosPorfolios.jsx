@@ -21,8 +21,8 @@ fetchPortafolios()
 
 return(
   <React.Fragment>
-  <div className="c">
-    <PortafolioList Portafolios={data} /></div>
+  
+    <PortafolioList Portafolios={data} />
   </React.Fragment>
 );
 

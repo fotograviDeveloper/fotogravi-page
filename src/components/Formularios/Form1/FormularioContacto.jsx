@@ -18,9 +18,11 @@ class FormularioContacto extends Component {
               />
             </div>
             <div className="info">
-              <p>
-                Ey!! si te gusto mi trabajo enviame un correo electronico.{" "}
-                <br /> Solo tienes que llenar el sigiente dormulario
+              <p>¡¡Ey!! Trabajemos juntos <br /> <br />
+                 Si te gusto mi trabajo enviame un correo electronico.
+                <br /> Solo tienes que llenar el sigiente formulario😊 <br />
+                
+                
               </p>
             </div>
             <div className="FormContainer">

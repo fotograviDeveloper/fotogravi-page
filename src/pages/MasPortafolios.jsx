@@ -1,11 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Route } from "react-router-dom";
 import host from "../control/diminio";
 import ButtonDark from "../components/Botones/BotonDark/ButtonDark"
 import GaleriaList from "../components/Cards/Galeria/galeriaList";
 import PortadaImg from "../components/Portadas/Portada1/Portada1";
-
+import Portafolios from "../components/Portafolio/Porfolios/OtrosPorfolios";
 import "./css/MasPortafoliosPage.css";
+import Webdesign from "./webdesign";
 
 const Masportafolios = () => {
 
@@ -52,7 +53,7 @@ const Masportafolios = () => {
           ico2={datos.icon2}
         ></PortadaImg>{" "}
       </div>
-
+      <Route exact path="/portafolios/Web-design" component={Webdesign} />
       <div className="galImagen">
         <GaleriaList Imagenes={Imagenes} /></div>
       <div className="contacto">
@@ -63,6 +64,7 @@ const Masportafolios = () => {
             Link="/Contacto" />
         </div>
       </div>
+   <Portafolios></Portafolios> 
     </React.Fragment>
   );
 };

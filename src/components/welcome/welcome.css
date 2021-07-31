@@ -2,16 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
 
 .bienvenida {
-   background: #8e1ffc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-image: url("../../assets/image/fondo-inicio.jpg") ;
- 
+   background-image: url("../../assets/image/fondo-inicio.jpg") ;
 background-repeat: no-repeat;
 
 background-size: cover;
 background-position: center;
   height: 100vh;
+ padding-top: 80px;
   min-height: fit-content;
   width: 100%;
   display: flex;
@@ -31,8 +28,13 @@ background-position: center;
   width: 550px;
 }
 .informacion{
-  background-color: #a244ff41
-;
+  background: rgba( 162, 68, 255, 0.20 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 display: flex;
 justify-content: center;
 align-items: center;

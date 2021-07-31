@@ -99,7 +99,15 @@ background-color: #353441;
     margin-left: 10px;
         transition: all 1s;
     }
-       
+    nav {
+        background-color: #00000067;
+    height: 100px;
+    -webkit-box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+    -moz-box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+    box-shadow: -3px 24px 31px -10px rgba(0,0,0,0.36);
+     
+    
+    }
     }
  
  

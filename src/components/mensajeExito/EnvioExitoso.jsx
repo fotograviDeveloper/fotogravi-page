@@ -10,9 +10,10 @@ const enviadoExitosamente = () => {
         <img src={succesImg} alt="imagen de confirmacion" />
       </div>
 
-      <h5>Se ha enviado el correo exitosamente
-     
+      <h5>El correo se ha enviado exitosamente.
+      <br/><br/> Me comunicare contigo lo antes posible
       </h5>
+     
       <BotonHome></BotonHome>
     </div>
   )

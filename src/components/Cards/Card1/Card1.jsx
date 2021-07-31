@@ -6,7 +6,7 @@ class Card1 extends React.Component {
     render(){
         return(
            
-
+<React.Fragment>
 
 <div className=" cards  "  key={this.props.id}>
 
@@ -19,7 +19,7 @@ class Card1 extends React.Component {
              
     </div>
 </div>
-            
+     </React.Fragment>       
         )
     }
 }

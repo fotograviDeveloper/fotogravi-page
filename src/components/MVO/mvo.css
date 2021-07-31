@@ -1,25 +1,21 @@
 .marca{
-    min-height: max-content;
-    height: 100vh;
+    height: max-content;
+    min-height: 100vh;
+    
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:repeat(2 1em);
     grid-template-rows: 100px 1fr;
     width: 100%;
     color: #fff;
     font-size: 20px;
+    gap: 3.5em;
+    padding-top: 50px;
     background-color: rgb(255, 255, 255);
 }
 .marca h2{
     color: #5B1DA8;
 }
-.vision {
-    height: 100vh;
-  
-    width: 100%;
-    color: #5B1DA8;
-    background: rgb(255,255,255);
-    background: linear-gradient(170deg, rgba(255,255,255,0.4738095067128414) 23%, rgba(255,242,121,1) 100%);     
-}
+
 .vision p{
     color: #fff;
 }
@@ -42,21 +38,61 @@
 .marca .titulo{
    grid-column-end: span 2;
    display: flex;
+   color: #5B1DA8;
    justify-content: center;
    align-items: center;
 }
+.imgMarca{
+  
+    text-align: center;
+}
 .imgMarca img{
-
-width: 80%;
+    padding: 50px;
+   object-fit: contain;
+   height: 700px;
+    background: rgba( 187, 152, 249, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.0px );
+    -webkit-backdrop-filter: blur( 7.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+text-align: center;
+width: 100%;
 }
 
 .marca .marcaText{
     background-color: #5B1DA8;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 16px;
     padding: 50px;
     display: flex;
    
     align-items: center;
     justify-content: center;
 
+}
+
+@media (max-width: 995px) {
+    .marca{
+     
+        display: grid;
+        grid-template-columns:repeat(2 1em);
+        grid-template-rows: 100px 1fr;
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+        gap: 3.5em;
+        padding-top: 50px;
+        background-color: rgb(255, 255, 255);
+    }
+    .marca .titulo{
+        grid-column-end: span 1;
+        display: flex;
+        color: #5B1DA8;
+        justify-content: center;
+        align-items: center;
+     }
+     .imgMarca img{
+         width: 80%;
+         height: auto;
+     }
 }

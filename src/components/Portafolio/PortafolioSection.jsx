@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import Portafolios from "../Portafolio/Porfolios/OtrosPorfolios";
 import Branding from "./Porfolios/PortafoliosBranding";
-import Myskills from "../MySkills/skillsico/SkillsIcon.jsx";
+// import Myskills from "../MySkills/skillsico/SkillsIcon.jsx";
 import "./Portafolio.css";
 
 class PortafolioSection extends Component {
@@ -13,7 +13,7 @@ class PortafolioSection extends Component {
       <React.Fragment>
         <div className="portafolio" id="Portafolio">
           <div className="grid1">
-            <h2>PORTAFOLIO BRANDING</h2>
+            <h3>PORTAFOLIO BRANDING</h3>
             <div className=" info">
 
               <p>
@@ -45,9 +45,9 @@ class PortafolioSection extends Component {
             <div className="portafolios">
               <Portafolios></Portafolios>
             </div>
-            <div className="skills">
+            {/* <div className="skills">
               <Myskills></Myskills>
-            </div>
+            </div> */}
           </div>
 
 

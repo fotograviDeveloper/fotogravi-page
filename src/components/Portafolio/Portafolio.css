@@ -4,7 +4,7 @@
 .portafolio {
   height: max-content;
   display: grid;
-  margin-top: 0px;
+
  
  
 }
@@ -12,20 +12,27 @@
 /*grid uno parte superior de la seccion*/
 .grid1 {
   height: max-content;
-  
-  padding-top: 70px;
-margin-top: 0px;
+  padding: 100px;
+
+
 width: 100%;
 
 }
-.grid1 h2 {
-  background-color: #5B1DA8;
+.grid1 h3 {
+  background: rgba(162, 68, 255, 0.87);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.794);
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding: 10px;
   border-radius: 5px;
-  height: fit-content;
+margin-top:auto ;
+  min-height: fit-content;
+display: flex;
+align-items: center;
+  padding-left: 50px;
 
-  padding-left: 90px;
-  margin: 0spx;
   font-size: 45px;
   letter-spacing: 3px;
   font-family: "Bebas Neue", cursive;
@@ -33,8 +40,8 @@ width: 100%;
 .grid1 .info {
   border-radius: 0px 0px 20px 20px;
   padding: 25px;
-color: rgb(27, 27, 27);
-  padding-left: 100px;
+color: rgba(51, 51, 51, 0.856);
+  padding-left: 50px;
   padding-right: 150px;
   font-family: montserrat;
   font-size: 20px;
@@ -42,10 +49,7 @@ color: rgb(27, 27, 27);
 
   font-weight: 600;
 }
-.part1 h2 {
-  padding-left: 50px;
-  padding-top: 15px;
-}
+
 
 /*grid2 parte media de la seccion aqui se encuentra el portafolioDesign*/
 
@@ -55,7 +59,7 @@ color: rgb(27, 27, 27);
   display: grid;
   padding-top: 35px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 130px;
+  grid-template-rows: 1fr;
   grid-gap: 15px;
 
   padding-left: 50px;
@@ -68,7 +72,7 @@ color: rgb(27, 27, 27);
   grid-row:span 2;
 }
 .grid2 .textoD p {
-  color: rgb(49, 49, 49);
+  color: rgba(49, 49, 49, 0.856);
 
   font-size: 18px;
   margin: 50px;
@@ -80,9 +84,11 @@ font-weight: 600;
 .portafolios{
   
   display: flex;
-
-  flex-wrap: wrap;
-  justify-content: center;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+ flex-direction: column;
+ gap: 3.5em;
 }
 
 .skills {
@@ -138,9 +144,22 @@ justify-content: center;
 }
 /*media query a 750 pixeles*/
 @media (max-width: 750px){
+  .grid1 {
+    height: max-content;
+    padding: 5px;
+  
+  
+  width: 100%;}
+
+  .grid2 .textoD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .grid2{ 
     margin: 0px;
-    
+     padding: 0px;
+    margin: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr) 150px  ;
   }
@@ -168,8 +187,23 @@ justify-content: center;
 
 /*media query a 450 pixeles*/
 @media (max-width: 450px){
-
+  .grid1 {
+    height: max-content;
+    padding: 5px;
+  
+  
+  width: 100%;}
+  .grid2{
+    padding: 0px;
+    margin: 0px;
+  }
+  .grid2 .textoD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .grid2 .textoD p{
+    width: 50%;
     font-size: 16px;
   }
   .skills{

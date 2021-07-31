@@ -1,0 +1,112 @@
+.services{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 100px;
+    
+}
+ .cad{
+    color: #ebebeb;
+    background-color: #4B01E0;
+display: flex;
+border-radius: 0px 0px 16px 0px;
+align-items: center;
+justify-content: center;
+position: absolute;
+z-index: 1;
+ height: 100px;
+
+ width: 400px;
+}
+
+.car{
+
+    width: 80%;
+    padding: 60px 0px;
+    margin: 0px;
+max-width: 90%;
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+flex-wrap: wrap;
+ gap: 3.8em;
+}
+.card__item{
+    background-color: rgba(247, 227, 255, 0.692);
+    border-radius: 16px;
+    height: 700px;
+    border: solid 1px rgba(0, 0, 0, 0.233);
+    box-shadow: 10px 10px 25px #9342f55e;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+max-width: 450px;
+flex-grow: 1;
+}
+.card__content{
+    width: 90%;
+    padding: 10px;
+color: #5B1DA8;
+}
+.card__picture{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+   
+    min-height: max-content; 
+    flex-basis: 320px;
+    background: rgba( 91, 29, 168, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    bottom: 3em;
+}
+.card__img{
+ width: 90%;
+height: 90%;
+}
+
+.card__content .card__parrafo{
+    margin-top: 50px;
+}
+.disclaimer{
+    text-align: center;
+}
+.disclaimer a{
+    background-color: #5B1DA8;
+    text-decoration: none;
+    color: antiquewhite;
+    width: 80%;
+   
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+    padding: 10px;
+}
+.disclaimer a:hover{
+    background-color: #9969d4;
+    text-decoration: none;
+    color: antiquewhite;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media (max-width: 500px){
+    .cad{
+      
+  
+     width: 80%;
+    }
+    
+}

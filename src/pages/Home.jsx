@@ -7,13 +7,15 @@ import AbautMe from "../components/AbautMe/AbautMe";
 import PortafolioSection from "../components/Portafolio/PortafolioSection";
 import Welcome from "../components/welcome/welcome";
 import Contacto from "../components/ContactoSecction/ContactoSecction";
-
+import ServiciosSection from "../components/servicios/ServiciosSection";
 function HomePage() {
   return (
     <React.Fragment>
       <Welcome></Welcome>
-      <AbautMe></AbautMe>
-      <PortafolioSection></PortafolioSection>
+     
+      <PortafolioSection></PortafolioSection> 
+       <AbautMe></AbautMe>
+    <ServiciosSection></ServiciosSection>
       <Contacto></Contacto>
     </React.Fragment>
   );

@@ -36,11 +36,12 @@ const NavbarHome = ()=> {
                 <a className="nav-item nav-link " href="#inicio" >
                   Inicio <span className="sr-only"></span>
                 </a>
-                <a className="nav-item nav-link" href="#abautme" id="item" >
-                  Conoceme
-                </a>
+            
                 <a className="nav-item nav-link" href="#Portafolio" id="item">
                   Portafolio
+                </a> 
+                   <a className="nav-item nav-link" href="#abautme" id="item" >
+                  Conoceme
                 </a>
                 <a className="nav-item nav-link" href="#Servicios"id="item">
                   Servicios

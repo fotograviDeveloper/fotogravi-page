@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from "react-router-dom"
 
 
 class BackButton extends React.Component{
@@ -8,7 +7,7 @@ class BackButton extends React.Component{
         return(
             <React.Fragment>
                 
-                  <Link to="/"> <i class="fas fa-hand-point-left"></i></Link>
+                  <a href="/"> <i class="fas fa-hand-point-left"></i></a>
             </React.Fragment>
         )
     }

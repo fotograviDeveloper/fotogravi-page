@@ -4,23 +4,37 @@
 
     background-size: cover;
     background-position: center;
-      height: 100vh;
-      width: 100%;
+    
+ 
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+height: 100vh;
+min-height: fit-content;
     width: 100%;
+
 }
 .contenedor{
-
-    width: 600px;
+    display: flex;
+    height: 100%;
+ 
+min-height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
 }
 .contenedor p{
     text-align: center;
     font-family: montserrat;
     font-size: 20px;
     font-weight: 500;
+}
+.contenedor a{
+    color: aliceblue;
+}
+.contenedor a:hover{
+    color: rgb(255, 230, 2);
 }
 .contenedor h2{
     text-align: center;
@@ -30,10 +44,7 @@
 }
 @media screen and (max-width:1150px) {
     
-    .contenedor{
-        width: 400px;
-      
-    }
+    
     .contenedor p{
         font-size: 18px;
         font-weight: 500;
@@ -44,12 +55,8 @@
     }
 }
 @media screen and (max-width:550px) {
-    .seccionContacto{
-        height: 110vh;
-    }
-    .contenedor{
-        width: 300px;
-    }
+    
+   
     .contenedor p{
         font-size: 16px;
      

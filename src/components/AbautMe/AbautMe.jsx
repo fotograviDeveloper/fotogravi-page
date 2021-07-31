@@ -37,8 +37,9 @@ function AbautMe() {
               <h2> YO SOY RAÚL GARCÉS</h2>
               <br />
               <p className="my">
-                Tengo 23 años. Soy de monterrey N.L. México. Y soy diseñador
-                gráfico y programador web freelance.
+                Tengo 23 años. <br />
+                Y soy diseñador
+                gráfico y programador web independiente.
               </p>
             </div>
             <div className="img">
@@ -48,14 +49,16 @@ function AbautMe() {
 
             <div className="parrafo">
               <p className="pr1">
-                Desde hace más de 4 años me interese por el diseño grafico. Esto me llevo a aprender y desarrollar múltiples habilidades que me ayudaron a llegar hasta este punto.{" "}
+                Desde hace más de 4 años me interese por el diseño grafico. 
+                Esto me llevo a aprender y desarrollar múltiples habilidades
+                que me ayudaron a llegar hasta este punto.{" "}
               </p>
             </div>
             <div className="parrafo">
               <p>
-                Cree mi marca personal <b>Fotogravi Studio.</b> <br/>Para
+                Cree mi marca personal <b>FOTOGRAVI STUDIO DESIGN.</b> <br/>Para
                 ofrecer mis servicios como diseñador gráfico, programador y
-                agente digital
+                agente digital.
               </p>
             </div>
             <div className="parrafo">

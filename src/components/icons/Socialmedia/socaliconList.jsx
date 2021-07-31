@@ -16,7 +16,7 @@ class IconSocialList extends React.Component {
             {
               id : "1",
                 Icon: "fab fa-facebook-square",
-                link: "https://www.facebook.com/Garces.fotogravi",
+                link: "https://www.facebook.com/Fotogravi.Design",
                 alt: "link a facebook"
             },
         
@@ -29,7 +29,7 @@ class IconSocialList extends React.Component {
             {
                 id : "3",
                 Icon: "fab fa-instagram",
-                link: "https://www.instagram.com/raul__garces/?hl=es-la",
+                link: "https://www.instagram.com/raul__garces",
                 alt: "link a intagram"
             },
             {

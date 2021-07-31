@@ -8,7 +8,7 @@ class Navbar extends Component {
       <React.Fragment>
         <div className="barra">
        <nav className="navbar navbar-expand-lg ">
-          
+              
             <Link className="navbar-brand ml-auto" to="/">
               <img className="img"src={img1} alt="logotipo de mi marca"></img>
             </Link>

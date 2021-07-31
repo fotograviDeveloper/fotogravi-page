@@ -11,7 +11,7 @@ class Welcome extends Component {
    
           <div className="informacion">
             <div className="container p-3">           <p>
-            "El diseño ayuda a trasmitir una idea, una emoción, un mensaje o un pensamiento.<br/>
+            "El diseño ayuda a trasmitir una idea, una emoción o un pensamiento.<br/>
 De forma visual y universal"</p>
 
 </div>
@@ -21,7 +21,7 @@ De forma visual y universal"</p>
           <div className="boton ">
             <span className="animated flip">
               {" "}
-              <a href="#abautme">
+              <a href="#Portafolio">
                 <i className="fas fa-sort-down"></i>
               </a>
             </span>
