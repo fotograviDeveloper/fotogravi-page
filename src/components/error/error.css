@@ -1,0 +1,28 @@
+.Error{
+height: 80vh;
+    display: flex;
+    align-items: center; flex-direction: column;
+    justify-content: center;
+}
+.E404{
+
+    width: 500px;
+
+}
+.homeBotton{
+    background-color: blueviolet;
+    border-radius: 16px;
+    width: 30%;  
+      display: flex;
+      font-weight: 500;
+      font-size: 40px;
+    align-items: center; flex-direction: row;
+    justify-content: center;
+}
+.homeBotton a{
+ 
+ width: 80%;text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    color: aliceblue    ;
+}

@@ -9,7 +9,7 @@ import option from "../../assets/svg/option.svg";
 class ServiciosSection extends Component {
   render() {
     return (
-      <React.Fragment><div className="cad">
+      <React.Fragment><div className="cad"> 
             <h2>Servicios</h2>
           </div>
         <div className="services" id="Servicios">

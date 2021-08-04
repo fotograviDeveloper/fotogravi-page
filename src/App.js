@@ -14,13 +14,15 @@ import navbar1 from "./components/navbar/navbar1/navbar1";
 import enviadoExitosamente from "./components/mensajeExito/EnvioExitoso";
 import PortBranding from "./pages/PortBranding"
 import Masportafolios from "./pages/MasPortafolios"
+import error404 from "./components/error/error404";
 const HomePage = lazy(() => import("./pages/Home.jsx"));
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter> 
+      
         <Suspense
           className="suspense"
           fallback={<CargandoPagina></CargandoPagina>}
@@ -29,8 +31,9 @@ function App() {
           <Route exact path="/" component={NavbarHome} />
      
           <Route exact path="/" component={HomePage} />{" "}
+          <Route path="/" component={error404} />{" "}
         </Suspense>
-          <Route  path="/" component={Navbar} /> 
+          <Route exact path="/" component={Navbar} /> 
         <Route exact path="/Design" component={Trabajos} />
         <Suspense
           className="suspense"
@@ -41,7 +44,7 @@ function App() {
         </Suspense>
          
           <Route exact path="/portafolio/" component={Portafolio} />
-            <Route exact path="/portafolios/:link" component={Masportafolios} />
+            <Route exact path="/portafolio/:link" component={Masportafolios} />
             <Route exact path="/portafolio/Design/branding/:link" component={PortBranding} />
         <Route path="/Contacto" component={Contacto} />
         <Route exact path="/correoEnviado" component={enviadoExitosamente} />
